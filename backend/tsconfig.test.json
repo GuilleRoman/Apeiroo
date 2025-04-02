@@ -1,0 +1,12 @@
+// tsconfig.test.json
+{
+    "compilerOptions": {
+      "module": "commonjs",
+      "target": "es6",
+      "esModuleInterop": true,
+      "allowJs": true,
+      // ... other test-specific compiler options ...
+    },
+    "include": ["tests/**/*.ts", "jest.config.ts", "src/**/*.ts"],
+    "exclude": ["node_modules"]
+  }

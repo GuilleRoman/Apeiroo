@@ -27,7 +27,7 @@ export class DatabaseError extends BaseError {
 
 export class InvalidIdError extends BaseError {
   constructor(message: string = 'Invalid ID format, ID should be an integer') {
-    super(message);
+    super(message, 400);
   }
 }
 

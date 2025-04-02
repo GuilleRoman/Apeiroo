@@ -7,7 +7,6 @@ const logFormat = winston.format.combine(
   winston.format.splat(),
   winston.format.json()
 );
-
 // Create logger instance
 const logger = winston.createLogger({
   level: process.env.NODE_ENV === 'production' ? 'info' : 'debug',
