@@ -1,11 +1,13 @@
 import React, { useEffect, useState } from 'react';
-import { List, Button, Input, message, Space } from 'antd';
-import { DeleteOutlined } from '@ant-design/icons';
+import { Table, Button, Input, message, TableColumnType } from 'antd';
+import { DeleteOutlined, CheckCircleOutlined, CloseCircleOutlined } from '@ant-design/icons';
 import axios from 'axios';
 
 interface Duty {
     id: string;
     name: string;
+    completed: boolean;
+    created_at: string;
 }
 
 const Duties: React.FC = () => {
@@ -50,8 +52,58 @@ const Duties: React.FC = () => {
         }
     };
 
+    const columns: TableColumnType<Duty>[] = [
+        {
+            title: 'ID',
+            dataIndex: 'id',
+            key: 'id',
+            align: 'center',
+        },
+        {
+            title: 'Name',
+            dataIndex: 'name',
+            key: 'name',
+            align: 'center',
+            width: '40%',
+        },
+        {
+            title: 'Completed',
+            dataIndex: 'completed',
+            key: 'completed',
+            align: 'center',
+            render: (completed: boolean) => (
+                <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100%' }}>
+                    {completed ? (
+                        <CheckCircleOutlined style={{ color: 'green', fontSize: '20px' }} />
+                    ) : (
+                        <CloseCircleOutlined style={{ color: 'red', fontSize: '20px' }} />
+                    )}
+                </div>
+            ),
+        },
+        {
+            title: 'Created At',
+            dataIndex: 'created_at',
+            key: 'created_at',
+            align: 'center',
+        },
+        {
+            title: 'Actions',
+            key: 'actions',
+            align: 'center',
+            render: (duty: Duty) => (
+                <Button
+                    type="dashed"
+                    icon={<DeleteOutlined />}
+                    size="small"
+                    onClick={() => deleteDuty(duty.id)}
+                />
+            ),
+        },
+    ];
+
     return (
-        <div style={{ maxWidth: 400, margin: 'auto', padding: 20 }}>
+        <div style={{ maxWidth: 800, margin: 'auto', padding: 20 }}>
             <h2>To-Do List</h2>
             <Input
                 placeholder="Enter duty name"
@@ -62,28 +114,16 @@ const Duties: React.FC = () => {
             <Button type="primary" onClick={addDuty} style={{ marginTop: 10 }}>
                 Add Duty
             </Button>
-            <List
-                bordered
+            <Table
                 dataSource={duties}
-                renderItem={(duty) => (
-                    <List.Item
-                        key={duty.id}
-                        actions={[
-                            <Button
-                                type="dashed"
-                                icon={<DeleteOutlined />}
-                                size="small"
-                                onClick={() => deleteDuty(duty.id)}
-                            />,
-                        ]}
-                    >
-                        {duty.name}
-                    </List.Item>
-                )}
+                columns={columns}
+                rowKey="id"
                 style={{ marginTop: 20 }}
             />
         </div>
     );
+
+    
 };
 
 export default Duties;
