@@ -24,3 +24,25 @@ export class DatabaseError extends BaseError {
     this.originalError = originalError;
   }
 }
+
+export class InvalidIdError extends BaseError {
+  constructor(message: string = 'Invalid ID format, ID should be an integer') {
+    super(message);
+  }
+}
+
+
+export class ServiceError extends BaseError {
+  constructor(message: string, public originalError?: any) {
+    super(message, 500); // Internal server error
+    this.originalError = originalError;
+  }
+}
+
+
+export class ControllerError extends BaseError {
+  constructor(message: string, public originalError?: any) {
+    super(message, 400); // Bad Request
+    this.originalError = originalError;
+  }
+}

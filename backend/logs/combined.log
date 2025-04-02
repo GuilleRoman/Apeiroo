@@ -2,3 +2,61 @@
 {"level":"info","message":"Database initialized successfully","service":"todo-api","timestamp":"2025-04-02 14:48:24"}
 {"level":"info","message":"Server running on port 3001","service":"todo-api","timestamp":"2025-04-02 14:48:24"}
 {"level":"info","message":"::ffff:172.26.0.1 - - [02/Apr/2025:14:48:28 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"http://localhost:3001/api/duties\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0\"","service":"todo-api","timestamp":"2025-04-02 14:48:28"}
+{"level":"info","message":"Database initialized successfully","service":"todo-api","timestamp":"2025-04-02 16:32:22"}
+{"level":"info","message":"Server running on port 3001","service":"todo-api","timestamp":"2025-04-02 16:32:22"}
+{"level":"debug","message":"Successfully fetched all duties from the database.","service":"todo-api","timestamp":"2025-04-02 16:32:26"}
+{"level":"info","message":"::ffff:172.29.0.1 - - [02/Apr/2025:16:32:26 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"http://localhost:3001/api/duties\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0\"","service":"todo-api","timestamp":"2025-04-02 16:32:26"}
+{"level":"debug","message":"Successfully fetched all duties from the database.","service":"todo-api","timestamp":"2025-04-02 16:37:07"}
+{"level":"info","message":"::ffff:172.29.0.1 - - [02/Apr/2025:16:37:07 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"http://localhost:3001/api/duties\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0\"","service":"todo-api","timestamp":"2025-04-02 16:37:07"}
+{"level":"debug","message":"Successfully fetched all duties from the database.","service":"todo-api","timestamp":"2025-04-02 16:38:54"}
+{"level":"debug","message":"Successfully fetched duty with id 1 from the database.","service":"todo-api","timestamp":"2025-04-02 16:39:20"}
+{"level":"debug","message":"Successfully deleted duty with id 1 from the database.","service":"todo-api","timestamp":"2025-04-02 16:40:38"}
+{"level":"debug","message":"Successfully fetched all duties from the database.","service":"todo-api","timestamp":"2025-04-02 16:40:45"}
+{"level":"info","message":"::ffff:172.29.0.1 - - [02/Apr/2025:16:40:45 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"http://localhost:3001/api/duties\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0\"","service":"todo-api","timestamp":"2025-04-02 16:40:45"}
+{"code":"22P02","file":"numutils.c","length":141,"level":"error","line":"232","message":"Failed to fetch duty with id NaN from the database: invalid input syntax for type integer: \"NaN\"","name":"error","routine":"pg_strtoint32","service":"todo-api","severity":"ERROR","stack":"error: invalid input syntax for type integer: \"NaN\"\n    at /usr/src/app/node_modules/pg-pool/index.js:45:11\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2025-04-02 16:41:11","where":"unnamed portal parameter $1 = '...'"}
+{"level":"error","message":"DatabaseError: Failed to fetch duty with id NaN","service":"todo-api","timestamp":"2025-04-02 16:41:11"}
+{"level":"info","message":"SIGTERM received, shutting down gracefully","service":"todo-api","timestamp":"2025-04-02 16:43:53"}
+{"level":"info","message":"Database initialized successfully","service":"todo-api","timestamp":"2025-04-02 16:44:02"}
+{"level":"info","message":"Server running on port 3001","service":"todo-api","timestamp":"2025-04-02 16:44:02"}
+{"code":"22P02","file":"numutils.c","length":141,"level":"error","line":"232","message":"Failed to fetch duty with id NaN from the database: invalid input syntax for type integer: \"NaN\"","name":"error","routine":"pg_strtoint32","service":"todo-api","severity":"ERROR","stack":"error: invalid input syntax for type integer: \"NaN\"\n    at /usr/src/app/node_modules/pg-pool/index.js:45:11\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2025-04-02 16:45:10","where":"unnamed portal parameter $1 = '...'"}
+{"level":"error","message":"DatabaseError: Failed to fetch duty with id NaN","service":"todo-api","timestamp":"2025-04-02 16:45:10"}
+{"level":"info","message":"SIGTERM received, shutting down gracefully","service":"todo-api","timestamp":"2025-04-02 16:53:09"}
+{"level":"info","message":"Database initialized successfully","service":"todo-api","timestamp":"2025-04-02 16:53:19"}
+{"level":"info","message":"Server running on port 3001","service":"todo-api","timestamp":"2025-04-02 16:53:19"}
+{"level":"error","message":"InvalidIdError: Invalid ID format, ID should be an integer","service":"todo-api","timestamp":"2025-04-02 16:55:27"}
+{"level":"debug","message":"Successfully deleted duty with id 1 from the database.","service":"todo-api","timestamp":"2025-04-02 16:56:35"}
+{"level":"debug","message":"Successfully deleted duty with id 1 from the database.","service":"todo-api","timestamp":"2025-04-02 16:56:42"}
+{"level":"error","message":"NotFoundError: Duty with id 1 not found","service":"todo-api","timestamp":"2025-04-02 16:56:42"}
+{"level":"debug","message":"Successfully created a new duty in the database.","service":"todo-api","timestamp":"2025-04-02 16:57:10"}
+{"level":"debug","message":"Successfully fetched all duties from the database.","service":"todo-api","timestamp":"2025-04-02 16:57:17"}
+{"level":"debug","message":"Successfully fetched all duties from the database.","service":"todo-api","timestamp":"2025-04-02 16:57:17"}
+{"level":"debug","message":"Successfully created a new duty in the database.","service":"todo-api","timestamp":"2025-04-02 16:57:26"}
+{"level":"debug","message":"Successfully fetched all duties from the database.","service":"todo-api","timestamp":"2025-04-02 16:57:28"}
+{"level":"debug","message":"Successfully fetched all duties from the database.","service":"todo-api","timestamp":"2025-04-02 16:57:28"}
+{"level":"debug","message":"Successfully fetched all duties from the database.","service":"todo-api","timestamp":"2025-04-02 16:57:29"}
+{"level":"debug","message":"Successfully fetched all duties from the database.","service":"todo-api","timestamp":"2025-04-02 16:57:29"}
+{"level":"info","message":"SIGTERM received, shutting down gracefully","service":"todo-api","timestamp":"2025-04-02 17:27:40"}
+{"level":"info","message":"Database initialized successfully","service":"todo-api","timestamp":"2025-04-02 17:27:51"}
+{"level":"info","message":"Server running on port 3001","service":"todo-api","timestamp":"2025-04-02 17:27:51"}
+{"level":"error","message":"TypeError: Cannot read properties of undefined (reading 'dutyService')","service":"todo-api","timestamp":"2025-04-02 17:27:54"}
+{"level":"info","message":"::ffff:192.168.0.1 - - [02/Apr/2025:17:27:54 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"http://localhost:3001/api/duties\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0\"","service":"todo-api","timestamp":"2025-04-02 17:27:54"}
+{"level":"info","message":"SIGTERM received, shutting down gracefully","service":"todo-api","timestamp":"2025-04-02 17:31:21"}
+{"level":"info","message":"Database initialized successfully","service":"todo-api","timestamp":"2025-04-02 17:31:37"}
+{"level":"info","message":"Server running on port 3001","service":"todo-api","timestamp":"2025-04-02 17:31:37"}
+{"level":"debug","message":"DutyService: Getting all duties.","service":"todo-api","timestamp":"2025-04-02 17:31:42"}
+{"level":"debug","message":"Successfully fetched all duties from the database.","service":"todo-api","timestamp":"2025-04-02 17:31:42"}
+{"level":"debug","message":"DutyService: Successfully retrieved all duties.","service":"todo-api","timestamp":"2025-04-02 17:31:42"}
+{"level":"info","message":"::ffff:192.168.16.1 - - [02/Apr/2025:17:31:42 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"http://localhost:3001/api/duties\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0\"","service":"todo-api","timestamp":"2025-04-02 17:31:42"}
+{"level":"debug","message":"DutyService: Getting all duties.","service":"todo-api","timestamp":"2025-04-02 17:31:53"}
+{"level":"debug","message":"Successfully fetched all duties from the database.","service":"todo-api","timestamp":"2025-04-02 17:31:53"}
+{"level":"debug","message":"DutyService: Successfully retrieved all duties.","service":"todo-api","timestamp":"2025-04-02 17:31:53"}
+{"level":"debug","message":"DutyService: Getting all duties.","service":"todo-api","timestamp":"2025-04-02 17:31:53"}
+{"level":"debug","message":"Successfully fetched all duties from the database.","service":"todo-api","timestamp":"2025-04-02 17:31:53"}
+{"level":"debug","message":"DutyService: Successfully retrieved all duties.","service":"todo-api","timestamp":"2025-04-02 17:31:53"}
+{"level":"debug","message":"DutyService: Creating new duty.","service":"todo-api","timestamp":"2025-04-02 17:32:13"}
+{"level":"debug","message":"Successfully created a new duty in the database.","service":"todo-api","timestamp":"2025-04-02 17:32:13"}
+{"level":"debug","message":"DutyService: Successfully created new duty.","service":"todo-api","timestamp":"2025-04-02 17:32:13"}
+{"level":"debug","message":"DutyService: Getting all duties.","service":"todo-api","timestamp":"2025-04-02 17:32:15"}
+{"level":"debug","message":"Successfully fetched all duties from the database.","service":"todo-api","timestamp":"2025-04-02 17:32:15"}
+{"level":"debug","message":"DutyService: Successfully retrieved all duties.","service":"todo-api","timestamp":"2025-04-02 17:32:15"}
+{"level":"info","message":"::ffff:192.168.16.1 - - [02/Apr/2025:17:32:16 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"http://localhost:3001/api/duties\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0\"","service":"todo-api","timestamp":"2025-04-02 17:32:16"}
