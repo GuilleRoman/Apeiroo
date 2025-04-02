@@ -70,3 +70,16 @@
 {"level":"info","message":"SIGTERM received, shutting down gracefully","service":"todo-api","timestamp":"2025-04-02 18:34:40"}
 {"level":"info","message":"Database initialized successfully","service":"todo-api","timestamp":"2025-04-02 18:35:35"}
 {"level":"info","message":"Server running on port 3001","service":"todo-api","timestamp":"2025-04-02 18:35:35"}
+{"level":"debug","message":"DutyService: Getting all duties.","service":"todo-api","timestamp":"2025-04-02 18:40:24"}
+{"level":"debug","message":"DutyService: Getting all duties.","service":"todo-api","timestamp":"2025-04-02 18:40:24"}
+{"level":"debug","message":"Successfully fetched all duties from the database.","service":"todo-api","timestamp":"2025-04-02 18:40:24"}
+{"level":"debug","message":"DutyService: Successfully retrieved all duties.","service":"todo-api","timestamp":"2025-04-02 18:40:24"}
+{"level":"debug","message":"Successfully fetched all duties from the database.","service":"todo-api","timestamp":"2025-04-02 18:40:24"}
+{"level":"debug","message":"DutyService: Successfully retrieved all duties.","service":"todo-api","timestamp":"2025-04-02 18:40:24"}
+{"level":"debug","message":"DutyService: Deleting duty with id 1.","service":"todo-api","timestamp":"2025-04-02 18:40:27"}
+{"level":"debug","message":"Successfully deleted duty with id 1 from the database.","service":"todo-api","timestamp":"2025-04-02 18:40:27"}
+{"level":"debug","message":"DutyService: Successfully deleted duty with id 1.","service":"todo-api","timestamp":"2025-04-02 18:40:27"}
+{"level":"debug","message":"DutyService: Getting all duties.","service":"todo-api","timestamp":"2025-04-02 18:40:31"}
+{"level":"debug","message":"Successfully fetched all duties from the database.","service":"todo-api","timestamp":"2025-04-02 18:40:31"}
+{"level":"debug","message":"DutyService: Successfully retrieved all duties.","service":"todo-api","timestamp":"2025-04-02 18:40:31"}
+{"level":"info","message":"::ffff:192.168.32.1 - - [02/Apr/2025:18:40:31 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"http://localhost:3001/api/duties\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0\"","service":"todo-api","timestamp":"2025-04-02 18:40:31"}
