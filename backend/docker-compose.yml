@@ -1,5 +1,4 @@
-version: "3.8"
-
+version: '3.8'
 services:
   backend:
     build:
@@ -8,18 +7,19 @@ services:
     container_name: backend-container
     ports:
       - "3001:3001"
-    volumes:
-      - .:/app
-      - /app/node_modules
     environment:
       NODE_ENV: development
-      DATABASE_URL: postgres://user:password@database:5432/todo_db
+      DATABASE_URL: postgres://user:password@postgres-db:5432/todo_db
     depends_on:
-      - database
+      - postgres-db
     networks:
       - backend_network
+    volumes:
+      - .:/app
+      - ./logs:/usr/src/app/logs
+    command: npm run dev
 
-  database:
+  postgres-db:
     image: postgres:15
     container_name: postgres-db
     restart: always
