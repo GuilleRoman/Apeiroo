@@ -330,3 +330,424 @@
 {"level":"debug","message":"Successfully deleted duty with id 6 from the database.","service":"todo-api","timestamp":"2025-04-02 20:20:45"}
 {"level":"debug","message":"DutyService: Successfully deleted duty with id 6.","service":"todo-api","timestamp":"2025-04-02 20:20:45"}
 {"level":"info","message":"SIGTERM received, shutting down gracefully","service":"todo-api","timestamp":"2025-04-02 20:24:31"}
+{"level":"info","message":"Database initialized successfully","service":"todo-api","timestamp":"2025-04-03 06:37:47"}
+{"level":"info","message":"Server running on port 3001","service":"todo-api","timestamp":"2025-04-03 06:37:47"}
+{"level":"debug","message":"DutyService: Getting all duties.","service":"todo-api","timestamp":"2025-04-03 06:38:06"}
+{"level":"debug","message":"DutyService: Getting all duties.","service":"todo-api","timestamp":"2025-04-03 06:38:06"}
+{"level":"debug","message":"Successfully fetched all duties from the database.","service":"todo-api","timestamp":"2025-04-03 06:38:06"}
+{"level":"debug","message":"DutyService: Successfully retrieved all duties.","service":"todo-api","timestamp":"2025-04-03 06:38:06"}
+{"level":"debug","message":"Successfully fetched all duties from the database.","service":"todo-api","timestamp":"2025-04-03 06:38:06"}
+{"level":"debug","message":"DutyService: Successfully retrieved all duties.","service":"todo-api","timestamp":"2025-04-03 06:38:06"}
+{"level":"info","message":"::ffff:192.168.48.1 - - [03/Apr/2025:06:38:08 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"http://localhost:3001/api/duties\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0\"","service":"todo-api","timestamp":"2025-04-03 06:38:08"}
+{"level":"debug","message":"DutyService: Getting all duties.","service":"todo-api","timestamp":"2025-04-03 06:38:10"}
+{"level":"debug","message":"Successfully fetched all duties from the database.","service":"todo-api","timestamp":"2025-04-03 06:38:10"}
+{"level":"debug","message":"DutyService: Successfully retrieved all duties.","service":"todo-api","timestamp":"2025-04-03 06:38:10"}
+{"level":"info","message":"::ffff:192.168.48.1 - - [03/Apr/2025:06:38:10 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"http://localhost:3001/api/duties\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0\"","service":"todo-api","timestamp":"2025-04-03 06:38:10"}
+{"level":"debug","message":"DutyService: Getting all duties.","service":"todo-api","timestamp":"2025-04-03 06:38:14"}
+{"level":"debug","message":"Successfully fetched all duties from the database.","service":"todo-api","timestamp":"2025-04-03 06:38:14"}
+{"level":"debug","message":"DutyService: Successfully retrieved all duties.","service":"todo-api","timestamp":"2025-04-03 06:38:14"}
+{"level":"info","message":"::ffff:192.168.48.1 - - [03/Apr/2025:06:38:14 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"http://localhost:3001/api/duties\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0\"","service":"todo-api","timestamp":"2025-04-03 06:38:14"}
+{"level":"debug","message":"DutyService: Getting all duties.","service":"todo-api","timestamp":"2025-04-03 06:41:35"}
+{"level":"debug","message":"DutyService: Getting all duties.","service":"todo-api","timestamp":"2025-04-03 06:41:35"}
+{"level":"debug","message":"Successfully fetched all duties from the database.","service":"todo-api","timestamp":"2025-04-03 06:41:35"}
+{"level":"debug","message":"DutyService: Successfully retrieved all duties.","service":"todo-api","timestamp":"2025-04-03 06:41:35"}
+{"level":"debug","message":"Successfully fetched all duties from the database.","service":"todo-api","timestamp":"2025-04-03 06:41:35"}
+{"level":"debug","message":"DutyService: Successfully retrieved all duties.","service":"todo-api","timestamp":"2025-04-03 06:41:35"}
+{"level":"debug","message":"DutyService: Getting all duties.","service":"todo-api","timestamp":"2025-04-03 06:43:02"}
+{"level":"debug","message":"DutyService: Getting all duties.","service":"todo-api","timestamp":"2025-04-03 06:43:02"}
+{"level":"debug","message":"Successfully fetched all duties from the database.","service":"todo-api","timestamp":"2025-04-03 06:43:02"}
+{"level":"debug","message":"DutyService: Successfully retrieved all duties.","service":"todo-api","timestamp":"2025-04-03 06:43:02"}
+{"level":"debug","message":"Successfully fetched all duties from the database.","service":"todo-api","timestamp":"2025-04-03 06:43:02"}
+{"level":"debug","message":"DutyService: Successfully retrieved all duties.","service":"todo-api","timestamp":"2025-04-03 06:43:02"}
+{"level":"debug","message":"DutyService: Getting all duties.","service":"todo-api","timestamp":"2025-04-03 06:45:14"}
+{"level":"debug","message":"Successfully fetched all duties from the database.","service":"todo-api","timestamp":"2025-04-03 06:45:14"}
+{"level":"debug","message":"DutyService: Successfully retrieved all duties.","service":"todo-api","timestamp":"2025-04-03 06:45:14"}
+{"level":"debug","message":"DutyService: Getting all duties.","service":"todo-api","timestamp":"2025-04-03 06:45:52"}
+{"level":"debug","message":"Successfully fetched all duties from the database.","service":"todo-api","timestamp":"2025-04-03 06:45:52"}
+{"level":"debug","message":"DutyService: Successfully retrieved all duties.","service":"todo-api","timestamp":"2025-04-03 06:45:52"}
+{"level":"info","message":"SIGTERM received, shutting down gracefully","service":"todo-api","timestamp":"2025-04-03 07:19:25"}
+{"level":"info","message":"Database initialized successfully","service":"todo-api","timestamp":"2025-04-03 16:32:02"}
+{"level":"info","message":"Server running on port 3001","service":"todo-api","timestamp":"2025-04-03 16:32:02"}
+{"level":"debug","message":"DutyService: Getting all duties.","service":"todo-api","timestamp":"2025-04-03 16:35:58"}
+{"level":"debug","message":"Successfully fetched all duties from the database.","service":"todo-api","timestamp":"2025-04-03 16:35:58"}
+{"level":"debug","message":"DutyService: Successfully retrieved all duties.","service":"todo-api","timestamp":"2025-04-03 16:35:58"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [03/Apr/2025:16:35:58 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"http://localhost:3001/api/duties\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0\"","service":"todo-api","timestamp":"2025-04-03 16:35:58"}
+{"level":"debug","message":"DutyService: Getting all duties.","service":"todo-api","timestamp":"2025-04-03 19:33:33"}
+{"level":"debug","message":"DutyService: Getting all duties.","service":"todo-api","timestamp":"2025-04-03 19:33:33"}
+{"level":"debug","message":"Successfully fetched all duties from the database.","service":"todo-api","timestamp":"2025-04-03 19:33:33"}
+{"level":"debug","message":"DutyService: Successfully retrieved all duties.","service":"todo-api","timestamp":"2025-04-03 19:33:33"}
+{"level":"debug","message":"Successfully fetched all duties from the database.","service":"todo-api","timestamp":"2025-04-03 19:33:33"}
+{"level":"debug","message":"DutyService: Successfully retrieved all duties.","service":"todo-api","timestamp":"2025-04-03 19:33:33"}
+{"level":"debug","message":"DutyService: Getting all duties.","service":"todo-api","timestamp":"2025-04-03 19:34:24"}
+{"level":"debug","message":"DutyService: Getting all duties.","service":"todo-api","timestamp":"2025-04-03 19:34:24"}
+{"level":"debug","message":"Successfully fetched all duties from the database.","service":"todo-api","timestamp":"2025-04-03 19:34:24"}
+{"level":"debug","message":"DutyService: Successfully retrieved all duties.","service":"todo-api","timestamp":"2025-04-03 19:34:24"}
+{"level":"debug","message":"Successfully fetched all duties from the database.","service":"todo-api","timestamp":"2025-04-03 19:34:24"}
+{"level":"debug","message":"DutyService: Successfully retrieved all duties.","service":"todo-api","timestamp":"2025-04-03 19:34:24"}
+{"level":"debug","message":"DutyService: Getting all duties.","service":"todo-api","timestamp":"2025-04-03 19:34:33"}
+{"level":"debug","message":"Successfully fetched all duties from the database.","service":"todo-api","timestamp":"2025-04-03 19:34:33"}
+{"level":"debug","message":"DutyService: Successfully retrieved all duties.","service":"todo-api","timestamp":"2025-04-03 19:34:33"}
+{"level":"debug","message":"DutyService: Getting all duties.","service":"todo-api","timestamp":"2025-04-03 19:34:33"}
+{"level":"debug","message":"Successfully fetched all duties from the database.","service":"todo-api","timestamp":"2025-04-03 19:34:33"}
+{"level":"debug","message":"DutyService: Successfully retrieved all duties.","service":"todo-api","timestamp":"2025-04-03 19:34:33"}
+{"level":"debug","message":"DutyService: Getting all duties.","service":"todo-api","timestamp":"2025-04-03 19:35:39"}
+{"level":"debug","message":"Successfully fetched all duties from the database.","service":"todo-api","timestamp":"2025-04-03 19:35:39"}
+{"level":"debug","message":"DutyService: Successfully retrieved all duties.","service":"todo-api","timestamp":"2025-04-03 19:35:39"}
+{"level":"debug","message":"DutyService: Getting all duties.","service":"todo-api","timestamp":"2025-04-03 19:36:21"}
+{"level":"debug","message":"Successfully fetched all duties from the database.","service":"todo-api","timestamp":"2025-04-03 19:36:21"}
+{"level":"debug","message":"DutyService: Successfully retrieved all duties.","service":"todo-api","timestamp":"2025-04-03 19:36:21"}
+{"level":"debug","message":"DutyService: Getting all duties.","service":"todo-api","timestamp":"2025-04-03 19:36:33"}
+{"level":"debug","message":"Successfully fetched all duties from the database.","service":"todo-api","timestamp":"2025-04-03 19:36:33"}
+{"level":"debug","message":"DutyService: Successfully retrieved all duties.","service":"todo-api","timestamp":"2025-04-03 19:36:33"}
+{"level":"debug","message":"DutyService: Getting all duties.","service":"todo-api","timestamp":"2025-04-03 19:36:41"}
+{"level":"debug","message":"Successfully fetched all duties from the database.","service":"todo-api","timestamp":"2025-04-03 19:36:41"}
+{"level":"debug","message":"DutyService: Successfully retrieved all duties.","service":"todo-api","timestamp":"2025-04-03 19:36:41"}
+{"level":"debug","message":"DutyService: Getting all duties.","service":"todo-api","timestamp":"2025-04-03 19:37:21"}
+{"level":"debug","message":"Successfully fetched all duties from the database.","service":"todo-api","timestamp":"2025-04-03 19:37:21"}
+{"level":"debug","message":"DutyService: Successfully retrieved all duties.","service":"todo-api","timestamp":"2025-04-03 19:37:21"}
+{"level":"debug","message":"DutyService: Getting all duties.","service":"todo-api","timestamp":"2025-04-03 19:37:42"}
+{"level":"debug","message":"Successfully fetched all duties from the database.","service":"todo-api","timestamp":"2025-04-03 19:37:42"}
+{"level":"debug","message":"DutyService: Successfully retrieved all duties.","service":"todo-api","timestamp":"2025-04-03 19:37:42"}
+{"level":"debug","message":"DutyService: Deleting duty with id 10.","service":"todo-api","timestamp":"2025-04-03 19:37:55"}
+{"level":"debug","message":"Successfully deleted duty with id 10 from the database.","service":"todo-api","timestamp":"2025-04-03 19:37:55"}
+{"level":"debug","message":"DutyService: Successfully deleted duty with id 10.","service":"todo-api","timestamp":"2025-04-03 19:37:55"}
+{"level":"debug","message":"DutyService: Updating duty with id 11.","service":"todo-api","timestamp":"2025-04-03 19:37:59"}
+{"level":"warn","message":"DutyService: Duty name contains invalid characters.","service":"todo-api","timestamp":"2025-04-03 19:37:59"}
+{"level":"error","message":"DutyService: Error updating duty with id 11: Duty name contains invalid characters","name":"ValidationError","service":"todo-api","stack":"ValidationError: Duty name contains invalid characters\n    at DutyService.validateDutyData (/usr/src/app/src/services/duty.service.ts:99:13)\n    at DutyService.<anonymous> (/usr/src/app/src/services/duty.service.ts:53:12)\n    at Generator.next (<anonymous>)\n    at /usr/src/app/src/services/duty.service.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (/usr/src/app/src/services/duty.service.ts:4:12)\n    at DutyService.updateDuty (/usr/src/app/src/services/duty.service.ts:67:16)\n    at DutyController.<anonymous> (/usr/src/app/src/controllers/duty.controller.ts:107:50)\n    at Generator.next (<anonymous>)\n    at /usr/src/app/src/controllers/duty.controller.ts:8:71","statusCode":400,"timestamp":"2025-04-03 19:37:59"}
+{"level":"error","message":"ServiceError: Failed to update duty with id 11","service":"todo-api","timestamp":"2025-04-03 19:37:59"}
+{"level":"debug","message":"DutyService: Updating duty with id 11.","service":"todo-api","timestamp":"2025-04-03 19:38:01"}
+{"level":"warn","message":"DutyService: Duty name contains invalid characters.","service":"todo-api","timestamp":"2025-04-03 19:38:01"}
+{"level":"error","message":"DutyService: Error updating duty with id 11: Duty name contains invalid characters","name":"ValidationError","service":"todo-api","stack":"ValidationError: Duty name contains invalid characters\n    at DutyService.validateDutyData (/usr/src/app/src/services/duty.service.ts:99:13)\n    at DutyService.<anonymous> (/usr/src/app/src/services/duty.service.ts:53:12)\n    at Generator.next (<anonymous>)\n    at /usr/src/app/src/services/duty.service.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (/usr/src/app/src/services/duty.service.ts:4:12)\n    at DutyService.updateDuty (/usr/src/app/src/services/duty.service.ts:67:16)\n    at DutyController.<anonymous> (/usr/src/app/src/controllers/duty.controller.ts:107:50)\n    at Generator.next (<anonymous>)\n    at /usr/src/app/src/controllers/duty.controller.ts:8:71","statusCode":400,"timestamp":"2025-04-03 19:38:01"}
+{"level":"error","message":"ServiceError: Failed to update duty with id 11","service":"todo-api","timestamp":"2025-04-03 19:38:01"}
+{"level":"debug","message":"DutyService: Getting all duties.","service":"todo-api","timestamp":"2025-04-03 19:39:08"}
+{"level":"debug","message":"Successfully fetched all duties from the database.","service":"todo-api","timestamp":"2025-04-03 19:39:08"}
+{"level":"debug","message":"DutyService: Successfully retrieved all duties.","service":"todo-api","timestamp":"2025-04-03 19:39:08"}
+{"level":"debug","message":"DutyService: Getting all duties.","service":"todo-api","timestamp":"2025-04-03 19:40:05"}
+{"level":"debug","message":"DutyService: Getting all duties.","service":"todo-api","timestamp":"2025-04-03 19:40:05"}
+{"level":"debug","message":"Successfully fetched all duties from the database.","service":"todo-api","timestamp":"2025-04-03 19:40:05"}
+{"level":"debug","message":"DutyService: Successfully retrieved all duties.","service":"todo-api","timestamp":"2025-04-03 19:40:05"}
+{"level":"debug","message":"Successfully fetched all duties from the database.","service":"todo-api","timestamp":"2025-04-03 19:40:05"}
+{"level":"debug","message":"DutyService: Successfully retrieved all duties.","service":"todo-api","timestamp":"2025-04-03 19:40:05"}
+{"level":"debug","message":"DutyService: Getting all duties.","service":"todo-api","timestamp":"2025-04-03 19:40:25"}
+{"level":"debug","message":"Successfully fetched all duties from the database.","service":"todo-api","timestamp":"2025-04-03 19:40:25"}
+{"level":"debug","message":"DutyService: Successfully retrieved all duties.","service":"todo-api","timestamp":"2025-04-03 19:40:25"}
+{"level":"debug","message":"DutyService: Getting all duties.","service":"todo-api","timestamp":"2025-04-03 19:40:25"}
+{"level":"debug","message":"Successfully fetched all duties from the database.","service":"todo-api","timestamp":"2025-04-03 19:40:25"}
+{"level":"debug","message":"DutyService: Successfully retrieved all duties.","service":"todo-api","timestamp":"2025-04-03 19:40:25"}
+{"level":"debug","message":"DutyService: Getting all duties.","service":"todo-api","timestamp":"2025-04-03 19:40:35"}
+{"level":"debug","message":"Successfully fetched all duties from the database.","service":"todo-api","timestamp":"2025-04-03 19:40:35"}
+{"level":"debug","message":"DutyService: Successfully retrieved all duties.","service":"todo-api","timestamp":"2025-04-03 19:40:35"}
+{"level":"debug","message":"DutyService: Updating duty with id 1.","service":"todo-api","timestamp":"2025-04-03 19:40:40"}
+{"level":"warn","message":"DutyService: Duty name contains invalid characters.","service":"todo-api","timestamp":"2025-04-03 19:40:40"}
+{"level":"error","message":"DutyService: Error updating duty with id 1: Duty name contains invalid characters","name":"ValidationError","service":"todo-api","stack":"ValidationError: Duty name contains invalid characters\n    at DutyService.validateDutyData (/usr/src/app/src/services/duty.service.ts:99:13)\n    at DutyService.<anonymous> (/usr/src/app/src/services/duty.service.ts:53:12)\n    at Generator.next (<anonymous>)\n    at /usr/src/app/src/services/duty.service.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (/usr/src/app/src/services/duty.service.ts:4:12)\n    at DutyService.updateDuty (/usr/src/app/src/services/duty.service.ts:67:16)\n    at DutyController.<anonymous> (/usr/src/app/src/controllers/duty.controller.ts:107:50)\n    at Generator.next (<anonymous>)\n    at /usr/src/app/src/controllers/duty.controller.ts:8:71","statusCode":400,"timestamp":"2025-04-03 19:40:40"}
+{"level":"error","message":"ServiceError: Failed to update duty with id 1","service":"todo-api","timestamp":"2025-04-03 19:40:40"}
+{"level":"debug","message":"DutyService: Updating duty with id 1.","service":"todo-api","timestamp":"2025-04-03 19:41:02"}
+{"level":"warn","message":"DutyService: Duty name contains invalid characters.","service":"todo-api","timestamp":"2025-04-03 19:41:02"}
+{"level":"error","message":"DutyService: Error updating duty with id 1: Duty name contains invalid characters","name":"ValidationError","service":"todo-api","stack":"ValidationError: Duty name contains invalid characters\n    at DutyService.validateDutyData (/usr/src/app/src/services/duty.service.ts:99:13)\n    at DutyService.<anonymous> (/usr/src/app/src/services/duty.service.ts:53:12)\n    at Generator.next (<anonymous>)\n    at /usr/src/app/src/services/duty.service.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (/usr/src/app/src/services/duty.service.ts:4:12)\n    at DutyService.updateDuty (/usr/src/app/src/services/duty.service.ts:67:16)\n    at DutyController.<anonymous> (/usr/src/app/src/controllers/duty.controller.ts:107:50)\n    at Generator.next (<anonymous>)\n    at /usr/src/app/src/controllers/duty.controller.ts:8:71","statusCode":400,"timestamp":"2025-04-03 19:41:02"}
+{"level":"error","message":"ServiceError: Failed to update duty with id 1","service":"todo-api","timestamp":"2025-04-03 19:41:02"}
+{"level":"debug","message":"DutyService: Updating duty with id 1.","service":"todo-api","timestamp":"2025-04-03 19:41:13"}
+{"level":"debug","message":"Successfully updated duty with id 1 in the database.","service":"todo-api","timestamp":"2025-04-03 19:41:13"}
+{"level":"debug","message":"DutyService: Successfully updated duty with id 1.","service":"todo-api","timestamp":"2025-04-03 19:41:13"}
+{"level":"debug","message":"DutyService: Getting all duties.","service":"todo-api","timestamp":"2025-04-03 19:41:13"}
+{"level":"debug","message":"Successfully fetched all duties from the database.","service":"todo-api","timestamp":"2025-04-03 19:41:13"}
+{"level":"debug","message":"DutyService: Successfully retrieved all duties.","service":"todo-api","timestamp":"2025-04-03 19:41:13"}
+{"level":"debug","message":"DutyService: Updating duty with id 2.","service":"todo-api","timestamp":"2025-04-03 19:41:36"}
+{"level":"debug","message":"Successfully updated duty with id 2 in the database.","service":"todo-api","timestamp":"2025-04-03 19:41:36"}
+{"level":"debug","message":"DutyService: Successfully updated duty with id 2.","service":"todo-api","timestamp":"2025-04-03 19:41:36"}
+{"level":"debug","message":"DutyService: Getting all duties.","service":"todo-api","timestamp":"2025-04-03 19:41:36"}
+{"level":"debug","message":"Successfully fetched all duties from the database.","service":"todo-api","timestamp":"2025-04-03 19:41:36"}
+{"level":"debug","message":"DutyService: Successfully retrieved all duties.","service":"todo-api","timestamp":"2025-04-03 19:41:36"}
+{"level":"debug","message":"DutyService: Updating duty with id 2.","service":"todo-api","timestamp":"2025-04-03 19:41:44"}
+{"level":"debug","message":"Successfully updated duty with id 2 in the database.","service":"todo-api","timestamp":"2025-04-03 19:41:44"}
+{"level":"debug","message":"DutyService: Successfully updated duty with id 2.","service":"todo-api","timestamp":"2025-04-03 19:41:44"}
+{"level":"debug","message":"DutyService: Getting all duties.","service":"todo-api","timestamp":"2025-04-03 19:41:44"}
+{"level":"debug","message":"Successfully fetched all duties from the database.","service":"todo-api","timestamp":"2025-04-03 19:41:44"}
+{"level":"debug","message":"DutyService: Successfully retrieved all duties.","service":"todo-api","timestamp":"2025-04-03 19:41:44"}
+{"level":"debug","message":"DutyService: Updating duty with id 2.","service":"todo-api","timestamp":"2025-04-03 19:41:53"}
+{"level":"debug","message":"Successfully updated duty with id 2 in the database.","service":"todo-api","timestamp":"2025-04-03 19:41:53"}
+{"level":"debug","message":"DutyService: Successfully updated duty with id 2.","service":"todo-api","timestamp":"2025-04-03 19:41:53"}
+{"level":"debug","message":"DutyService: Getting all duties.","service":"todo-api","timestamp":"2025-04-03 19:41:53"}
+{"level":"debug","message":"Successfully fetched all duties from the database.","service":"todo-api","timestamp":"2025-04-03 19:41:53"}
+{"level":"debug","message":"DutyService: Successfully retrieved all duties.","service":"todo-api","timestamp":"2025-04-03 19:41:53"}
+{"level":"debug","message":"DutyService: Updating duty with id 2.","service":"todo-api","timestamp":"2025-04-03 19:42:03"}
+{"level":"debug","message":"Successfully updated duty with id 2 in the database.","service":"todo-api","timestamp":"2025-04-03 19:42:03"}
+{"level":"debug","message":"DutyService: Successfully updated duty with id 2.","service":"todo-api","timestamp":"2025-04-03 19:42:03"}
+{"level":"debug","message":"DutyService: Getting all duties.","service":"todo-api","timestamp":"2025-04-03 19:42:03"}
+{"level":"debug","message":"Successfully fetched all duties from the database.","service":"todo-api","timestamp":"2025-04-03 19:42:03"}
+{"level":"debug","message":"DutyService: Successfully retrieved all duties.","service":"todo-api","timestamp":"2025-04-03 19:42:03"}
+{"level":"debug","message":"DutyService: Getting all duties.","service":"todo-api","timestamp":"2025-04-03 19:42:06"}
+{"level":"debug","message":"Successfully fetched all duties from the database.","service":"todo-api","timestamp":"2025-04-03 19:42:06"}
+{"level":"debug","message":"DutyService: Successfully retrieved all duties.","service":"todo-api","timestamp":"2025-04-03 19:42:06"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [03/Apr/2025:19:42:06 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"http://localhost:3001/api/duties\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0\"","service":"todo-api","timestamp":"2025-04-03 19:42:06"}
+{"level":"debug","message":"DutyService: Getting all duties.","service":"todo-api","timestamp":"2025-04-03 19:43:53"}
+{"level":"debug","message":"Successfully fetched all duties from the database.","service":"todo-api","timestamp":"2025-04-03 19:43:53"}
+{"level":"debug","message":"DutyService: Successfully retrieved all duties.","service":"todo-api","timestamp":"2025-04-03 19:43:53"}
+{"level":"debug","message":"DutyService: Getting all duties.","service":"todo-api","timestamp":"2025-04-03 19:44:05"}
+{"level":"debug","message":"Successfully fetched all duties from the database.","service":"todo-api","timestamp":"2025-04-03 19:44:05"}
+{"level":"debug","message":"DutyService: Successfully retrieved all duties.","service":"todo-api","timestamp":"2025-04-03 19:44:05"}
+{"level":"debug","message":"DutyService: Updating duty with id 14.","service":"todo-api","timestamp":"2025-04-03 19:44:09"}
+{"level":"warn","message":"DutyService: Duty name contains invalid characters.","service":"todo-api","timestamp":"2025-04-03 19:44:09"}
+{"level":"error","message":"DutyService: Error updating duty with id 14: Duty name contains invalid characters","name":"ValidationError","service":"todo-api","stack":"ValidationError: Duty name contains invalid characters\n    at DutyService.validateDutyData (/usr/src/app/src/services/duty.service.ts:99:13)\n    at DutyService.<anonymous> (/usr/src/app/src/services/duty.service.ts:53:12)\n    at Generator.next (<anonymous>)\n    at /usr/src/app/src/services/duty.service.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (/usr/src/app/src/services/duty.service.ts:4:12)\n    at DutyService.updateDuty (/usr/src/app/src/services/duty.service.ts:67:16)\n    at DutyController.<anonymous> (/usr/src/app/src/controllers/duty.controller.ts:107:50)\n    at Generator.next (<anonymous>)\n    at /usr/src/app/src/controllers/duty.controller.ts:8:71","statusCode":400,"timestamp":"2025-04-03 19:44:09"}
+{"level":"error","message":"ServiceError: Failed to update duty with id 14","service":"todo-api","timestamp":"2025-04-03 19:44:09"}
+{"level":"debug","message":"DutyService: Updating duty with id 14.","service":"todo-api","timestamp":"2025-04-03 19:44:22"}
+{"level":"warn","message":"DutyService: Duty name contains invalid characters.","service":"todo-api","timestamp":"2025-04-03 19:44:22"}
+{"level":"error","message":"DutyService: Error updating duty with id 14: Duty name contains invalid characters","name":"ValidationError","service":"todo-api","stack":"ValidationError: Duty name contains invalid characters\n    at DutyService.validateDutyData (/usr/src/app/src/services/duty.service.ts:99:13)\n    at DutyService.<anonymous> (/usr/src/app/src/services/duty.service.ts:53:12)\n    at Generator.next (<anonymous>)\n    at /usr/src/app/src/services/duty.service.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (/usr/src/app/src/services/duty.service.ts:4:12)\n    at DutyService.updateDuty (/usr/src/app/src/services/duty.service.ts:67:16)\n    at DutyController.<anonymous> (/usr/src/app/src/controllers/duty.controller.ts:107:50)\n    at Generator.next (<anonymous>)\n    at /usr/src/app/src/controllers/duty.controller.ts:8:71","statusCode":400,"timestamp":"2025-04-03 19:44:22"}
+{"level":"error","message":"ServiceError: Failed to update duty with id 14","service":"todo-api","timestamp":"2025-04-03 19:44:22"}
+{"level":"debug","message":"DutyService: Updating duty with id 14.","service":"todo-api","timestamp":"2025-04-03 19:44:25"}
+{"level":"warn","message":"DutyService: Duty name contains invalid characters.","service":"todo-api","timestamp":"2025-04-03 19:44:25"}
+{"level":"error","message":"DutyService: Error updating duty with id 14: Duty name contains invalid characters","name":"ValidationError","service":"todo-api","stack":"ValidationError: Duty name contains invalid characters\n    at DutyService.validateDutyData (/usr/src/app/src/services/duty.service.ts:99:13)\n    at DutyService.<anonymous> (/usr/src/app/src/services/duty.service.ts:53:12)\n    at Generator.next (<anonymous>)\n    at /usr/src/app/src/services/duty.service.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (/usr/src/app/src/services/duty.service.ts:4:12)\n    at DutyService.updateDuty (/usr/src/app/src/services/duty.service.ts:67:16)\n    at DutyController.<anonymous> (/usr/src/app/src/controllers/duty.controller.ts:107:50)\n    at Generator.next (<anonymous>)\n    at /usr/src/app/src/controllers/duty.controller.ts:8:71","statusCode":400,"timestamp":"2025-04-03 19:44:25"}
+{"level":"error","message":"ServiceError: Failed to update duty with id 14","service":"todo-api","timestamp":"2025-04-03 19:44:25"}
+{"level":"debug","message":"DutyService: Updating duty with id 6.","service":"todo-api","timestamp":"2025-04-03 19:45:46"}
+{"level":"debug","message":"Successfully updated duty with id 6 in the database.","service":"todo-api","timestamp":"2025-04-03 19:45:46"}
+{"level":"debug","message":"DutyService: Successfully updated duty with id 6.","service":"todo-api","timestamp":"2025-04-03 19:45:46"}
+{"level":"debug","message":"DutyService: Getting all duties.","service":"todo-api","timestamp":"2025-04-03 19:46:16"}
+{"level":"debug","message":"Successfully fetched all duties from the database.","service":"todo-api","timestamp":"2025-04-03 19:46:16"}
+{"level":"debug","message":"DutyService: Successfully retrieved all duties.","service":"todo-api","timestamp":"2025-04-03 19:46:16"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [03/Apr/2025:19:46:16 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"http://localhost:3001/api/duties\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0\"","service":"todo-api","timestamp":"2025-04-03 19:46:16"}
+{"level":"debug","message":"DutyService: Getting all duties.","service":"todo-api","timestamp":"2025-04-03 19:46:53"}
+{"level":"debug","message":"Successfully fetched all duties from the database.","service":"todo-api","timestamp":"2025-04-03 19:46:53"}
+{"level":"debug","message":"DutyService: Successfully retrieved all duties.","service":"todo-api","timestamp":"2025-04-03 19:46:53"}
+{"level":"debug","message":"DutyService: Getting all duties.","service":"todo-api","timestamp":"2025-04-03 19:47:07"}
+{"level":"debug","message":"Successfully fetched all duties from the database.","service":"todo-api","timestamp":"2025-04-03 19:47:07"}
+{"level":"debug","message":"DutyService: Successfully retrieved all duties.","service":"todo-api","timestamp":"2025-04-03 19:47:07"}
+{"level":"debug","message":"DutyService: Getting all duties.","service":"todo-api","timestamp":"2025-04-03 19:47:07"}
+{"level":"debug","message":"Successfully fetched all duties from the database.","service":"todo-api","timestamp":"2025-04-03 19:47:07"}
+{"level":"debug","message":"DutyService: Successfully retrieved all duties.","service":"todo-api","timestamp":"2025-04-03 19:47:07"}
+{"level":"debug","message":"DutyService: Updating duty with id 3.","service":"todo-api","timestamp":"2025-04-03 19:47:13"}
+{"level":"debug","message":"Successfully updated duty with id 3 in the database.","service":"todo-api","timestamp":"2025-04-03 19:47:13"}
+{"level":"debug","message":"DutyService: Successfully updated duty with id 3.","service":"todo-api","timestamp":"2025-04-03 19:47:13"}
+{"level":"debug","message":"DutyService: Updating duty with id 5.","service":"todo-api","timestamp":"2025-04-03 19:47:29"}
+{"level":"debug","message":"Successfully updated duty with id 5 in the database.","service":"todo-api","timestamp":"2025-04-03 19:47:29"}
+{"level":"debug","message":"DutyService: Successfully updated duty with id 5.","service":"todo-api","timestamp":"2025-04-03 19:47:29"}
+{"level":"debug","message":"DutyService: Getting all duties.","service":"todo-api","timestamp":"2025-04-03 19:48:04"}
+{"level":"debug","message":"Successfully fetched all duties from the database.","service":"todo-api","timestamp":"2025-04-03 19:48:04"}
+{"level":"debug","message":"DutyService: Successfully retrieved all duties.","service":"todo-api","timestamp":"2025-04-03 19:48:04"}
+{"level":"debug","message":"DutyService: Deleting duty with id 4.","service":"todo-api","timestamp":"2025-04-03 19:48:05"}
+{"level":"debug","message":"Successfully deleted duty with id 4 from the database.","service":"todo-api","timestamp":"2025-04-03 19:48:05"}
+{"level":"debug","message":"DutyService: Successfully deleted duty with id 4.","service":"todo-api","timestamp":"2025-04-03 19:48:05"}
+{"level":"debug","message":"DutyService: Updating duty with id 7.","service":"todo-api","timestamp":"2025-04-03 19:48:08"}
+{"level":"debug","message":"Successfully updated duty with id 7 in the database.","service":"todo-api","timestamp":"2025-04-03 19:48:08"}
+{"level":"debug","message":"DutyService: Successfully updated duty with id 7.","service":"todo-api","timestamp":"2025-04-03 19:48:08"}
+{"level":"debug","message":"DutyService: Deleting duty with id 7.","service":"todo-api","timestamp":"2025-04-03 19:53:13"}
+{"level":"debug","message":"Successfully deleted duty with id 7 from the database.","service":"todo-api","timestamp":"2025-04-03 19:53:13"}
+{"level":"debug","message":"DutyService: Successfully deleted duty with id 7.","service":"todo-api","timestamp":"2025-04-03 19:53:13"}
+{"level":"debug","message":"DutyService: Updating duty with id 12.","service":"todo-api","timestamp":"2025-04-03 19:54:19"}
+{"level":"warn","message":"DutyService: Duty name contains invalid characters.","service":"todo-api","timestamp":"2025-04-03 19:54:19"}
+{"level":"error","message":"DutyService: Error updating duty with id 12: Duty name contains invalid characters","name":"ValidationError","service":"todo-api","stack":"ValidationError: Duty name contains invalid characters\n    at DutyService.validateDutyData (/usr/src/app/src/services/duty.service.ts:99:13)\n    at DutyService.<anonymous> (/usr/src/app/src/services/duty.service.ts:53:12)\n    at Generator.next (<anonymous>)\n    at /usr/src/app/src/services/duty.service.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (/usr/src/app/src/services/duty.service.ts:4:12)\n    at DutyService.updateDuty (/usr/src/app/src/services/duty.service.ts:67:16)\n    at DutyController.<anonymous> (/usr/src/app/src/controllers/duty.controller.ts:107:50)\n    at Generator.next (<anonymous>)\n    at /usr/src/app/src/controllers/duty.controller.ts:8:71","statusCode":400,"timestamp":"2025-04-03 19:54:19"}
+{"level":"error","message":"ServiceError: Failed to update duty with id 12","service":"todo-api","timestamp":"2025-04-03 19:54:19"}
+{"level":"debug","message":"DutyService: Updating duty with id 12.","service":"todo-api","timestamp":"2025-04-03 19:54:28"}
+{"level":"warn","message":"DutyService: Duty name contains invalid characters.","service":"todo-api","timestamp":"2025-04-03 19:54:28"}
+{"level":"error","message":"DutyService: Error updating duty with id 12: Duty name contains invalid characters","name":"ValidationError","service":"todo-api","stack":"ValidationError: Duty name contains invalid characters\n    at DutyService.validateDutyData (/usr/src/app/src/services/duty.service.ts:99:13)\n    at DutyService.<anonymous> (/usr/src/app/src/services/duty.service.ts:53:12)\n    at Generator.next (<anonymous>)\n    at /usr/src/app/src/services/duty.service.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (/usr/src/app/src/services/duty.service.ts:4:12)\n    at DutyService.updateDuty (/usr/src/app/src/services/duty.service.ts:67:16)\n    at DutyController.<anonymous> (/usr/src/app/src/controllers/duty.controller.ts:107:50)\n    at Generator.next (<anonymous>)\n    at /usr/src/app/src/controllers/duty.controller.ts:8:71","statusCode":400,"timestamp":"2025-04-03 19:54:28"}
+{"level":"error","message":"ServiceError: Failed to update duty with id 12","service":"todo-api","timestamp":"2025-04-03 19:54:28"}
+{"level":"debug","message":"DutyService: Getting all duties.","service":"todo-api","timestamp":"2025-04-03 19:55:34"}
+{"level":"debug","message":"Successfully fetched all duties from the database.","service":"todo-api","timestamp":"2025-04-03 19:55:34"}
+{"level":"debug","message":"DutyService: Successfully retrieved all duties.","service":"todo-api","timestamp":"2025-04-03 19:55:34"}
+{"level":"debug","message":"DutyService: Getting all duties.","service":"todo-api","timestamp":"2025-04-03 19:55:37"}
+{"level":"debug","message":"Successfully fetched all duties from the database.","service":"todo-api","timestamp":"2025-04-03 19:55:37"}
+{"level":"debug","message":"DutyService: Successfully retrieved all duties.","service":"todo-api","timestamp":"2025-04-03 19:55:37"}
+{"level":"debug","message":"DutyService: Getting all duties.","service":"todo-api","timestamp":"2025-04-03 19:55:37"}
+{"level":"debug","message":"Successfully fetched all duties from the database.","service":"todo-api","timestamp":"2025-04-03 19:55:37"}
+{"level":"debug","message":"DutyService: Successfully retrieved all duties.","service":"todo-api","timestamp":"2025-04-03 19:55:37"}
+{"level":"debug","message":"DutyService: Deleting duty with id 8.","service":"todo-api","timestamp":"2025-04-03 19:55:41"}
+{"level":"debug","message":"Successfully deleted duty with id 8 from the database.","service":"todo-api","timestamp":"2025-04-03 19:55:41"}
+{"level":"debug","message":"DutyService: Successfully deleted duty with id 8.","service":"todo-api","timestamp":"2025-04-03 19:55:41"}
+{"level":"debug","message":"DutyService: Deleting duty with id 9.","service":"todo-api","timestamp":"2025-04-03 19:55:54"}
+{"level":"debug","message":"Successfully deleted duty with id 9 from the database.","service":"todo-api","timestamp":"2025-04-03 19:55:54"}
+{"level":"debug","message":"DutyService: Successfully deleted duty with id 9.","service":"todo-api","timestamp":"2025-04-03 19:55:54"}
+{"level":"debug","message":"DutyService: Getting all duties.","service":"todo-api","timestamp":"2025-04-03 19:55:58"}
+{"level":"debug","message":"Successfully fetched all duties from the database.","service":"todo-api","timestamp":"2025-04-03 19:55:58"}
+{"level":"debug","message":"DutyService: Successfully retrieved all duties.","service":"todo-api","timestamp":"2025-04-03 19:55:58"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [03/Apr/2025:19:55:58 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"http://localhost:3001/api/duties\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0\"","service":"todo-api","timestamp":"2025-04-03 19:55:58"}
+{"level":"debug","message":"DutyService: Getting all duties.","service":"todo-api","timestamp":"2025-04-03 20:11:48"}
+{"level":"debug","message":"Successfully fetched all duties from the database.","service":"todo-api","timestamp":"2025-04-03 20:11:48"}
+{"level":"debug","message":"DutyService: Successfully retrieved all duties.","service":"todo-api","timestamp":"2025-04-03 20:11:48"}
+{"level":"debug","message":"DutyService: Updating duty with id 11.","service":"todo-api","timestamp":"2025-04-03 20:11:51"}
+{"level":"warn","message":"DutyService: Duty name contains invalid characters.","service":"todo-api","timestamp":"2025-04-03 20:11:51"}
+{"level":"error","message":"DutyService: Error updating duty with id 11: Duty name contains invalid characters","name":"ValidationError","service":"todo-api","stack":"ValidationError: Duty name contains invalid characters\n    at DutyService.validateDutyData (/usr/src/app/src/services/duty.service.ts:99:13)\n    at DutyService.<anonymous> (/usr/src/app/src/services/duty.service.ts:53:12)\n    at Generator.next (<anonymous>)\n    at /usr/src/app/src/services/duty.service.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (/usr/src/app/src/services/duty.service.ts:4:12)\n    at DutyService.updateDuty (/usr/src/app/src/services/duty.service.ts:67:16)\n    at DutyController.<anonymous> (/usr/src/app/src/controllers/duty.controller.ts:107:50)\n    at Generator.next (<anonymous>)\n    at /usr/src/app/src/controllers/duty.controller.ts:8:71","statusCode":400,"timestamp":"2025-04-03 20:11:51"}
+{"level":"error","message":"ServiceError: Failed to update duty with id 11","service":"todo-api","timestamp":"2025-04-03 20:11:51"}
+{"level":"debug","message":"DutyService: Updating duty with id 11.","service":"todo-api","timestamp":"2025-04-03 20:11:54"}
+{"level":"warn","message":"DutyService: Duty name contains invalid characters.","service":"todo-api","timestamp":"2025-04-03 20:11:54"}
+{"level":"error","message":"DutyService: Error updating duty with id 11: Duty name contains invalid characters","name":"ValidationError","service":"todo-api","stack":"ValidationError: Duty name contains invalid characters\n    at DutyService.validateDutyData (/usr/src/app/src/services/duty.service.ts:99:13)\n    at DutyService.<anonymous> (/usr/src/app/src/services/duty.service.ts:53:12)\n    at Generator.next (<anonymous>)\n    at /usr/src/app/src/services/duty.service.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (/usr/src/app/src/services/duty.service.ts:4:12)\n    at DutyService.updateDuty (/usr/src/app/src/services/duty.service.ts:67:16)\n    at DutyController.<anonymous> (/usr/src/app/src/controllers/duty.controller.ts:107:50)\n    at Generator.next (<anonymous>)\n    at /usr/src/app/src/controllers/duty.controller.ts:8:71","statusCode":400,"timestamp":"2025-04-03 20:11:54"}
+{"level":"error","message":"ServiceError: Failed to update duty with id 11","service":"todo-api","timestamp":"2025-04-03 20:11:54"}
+{"level":"debug","message":"DutyService: Updating duty with id 11.","service":"todo-api","timestamp":"2025-04-03 20:11:54"}
+{"level":"warn","message":"DutyService: Duty name contains invalid characters.","service":"todo-api","timestamp":"2025-04-03 20:11:54"}
+{"level":"error","message":"DutyService: Error updating duty with id 11: Duty name contains invalid characters","name":"ValidationError","service":"todo-api","stack":"ValidationError: Duty name contains invalid characters\n    at DutyService.validateDutyData (/usr/src/app/src/services/duty.service.ts:99:13)\n    at DutyService.<anonymous> (/usr/src/app/src/services/duty.service.ts:53:12)\n    at Generator.next (<anonymous>)\n    at /usr/src/app/src/services/duty.service.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (/usr/src/app/src/services/duty.service.ts:4:12)\n    at DutyService.updateDuty (/usr/src/app/src/services/duty.service.ts:67:16)\n    at DutyController.<anonymous> (/usr/src/app/src/controllers/duty.controller.ts:107:50)\n    at Generator.next (<anonymous>)\n    at /usr/src/app/src/controllers/duty.controller.ts:8:71","statusCode":400,"timestamp":"2025-04-03 20:11:54"}
+{"level":"error","message":"ServiceError: Failed to update duty with id 11","service":"todo-api","timestamp":"2025-04-03 20:11:54"}
+{"level":"debug","message":"DutyService: Updating duty with id 11.","service":"todo-api","timestamp":"2025-04-03 20:11:55"}
+{"level":"warn","message":"DutyService: Duty name contains invalid characters.","service":"todo-api","timestamp":"2025-04-03 20:11:55"}
+{"level":"error","message":"DutyService: Error updating duty with id 11: Duty name contains invalid characters","name":"ValidationError","service":"todo-api","stack":"ValidationError: Duty name contains invalid characters\n    at DutyService.validateDutyData (/usr/src/app/src/services/duty.service.ts:99:13)\n    at DutyService.<anonymous> (/usr/src/app/src/services/duty.service.ts:53:12)\n    at Generator.next (<anonymous>)\n    at /usr/src/app/src/services/duty.service.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (/usr/src/app/src/services/duty.service.ts:4:12)\n    at DutyService.updateDuty (/usr/src/app/src/services/duty.service.ts:67:16)\n    at DutyController.<anonymous> (/usr/src/app/src/controllers/duty.controller.ts:107:50)\n    at Generator.next (<anonymous>)\n    at /usr/src/app/src/controllers/duty.controller.ts:8:71","statusCode":400,"timestamp":"2025-04-03 20:11:55"}
+{"level":"error","message":"ServiceError: Failed to update duty with id 11","service":"todo-api","timestamp":"2025-04-03 20:11:55"}
+{"level":"debug","message":"DutyService: Updating duty with id 11.","service":"todo-api","timestamp":"2025-04-03 20:12:06"}
+{"level":"warn","message":"DutyService: Duty name contains invalid characters.","service":"todo-api","timestamp":"2025-04-03 20:12:06"}
+{"level":"error","message":"DutyService: Error updating duty with id 11: Duty name contains invalid characters","name":"ValidationError","service":"todo-api","stack":"ValidationError: Duty name contains invalid characters\n    at DutyService.validateDutyData (/usr/src/app/src/services/duty.service.ts:99:13)\n    at DutyService.<anonymous> (/usr/src/app/src/services/duty.service.ts:53:12)\n    at Generator.next (<anonymous>)\n    at /usr/src/app/src/services/duty.service.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (/usr/src/app/src/services/duty.service.ts:4:12)\n    at DutyService.updateDuty (/usr/src/app/src/services/duty.service.ts:67:16)\n    at DutyController.<anonymous> (/usr/src/app/src/controllers/duty.controller.ts:107:50)\n    at Generator.next (<anonymous>)\n    at /usr/src/app/src/controllers/duty.controller.ts:8:71","statusCode":400,"timestamp":"2025-04-03 20:12:06"}
+{"level":"error","message":"ServiceError: Failed to update duty with id 11","service":"todo-api","timestamp":"2025-04-03 20:12:06"}
+{"level":"debug","message":"DutyService: Updating duty with id 11.","service":"todo-api","timestamp":"2025-04-03 20:12:09"}
+{"level":"debug","message":"Successfully updated duty with id 11 in the database.","service":"todo-api","timestamp":"2025-04-03 20:12:09"}
+{"level":"debug","message":"DutyService: Successfully updated duty with id 11.","service":"todo-api","timestamp":"2025-04-03 20:12:09"}
+{"level":"debug","message":"DutyService: Getting all duties.","service":"todo-api","timestamp":"2025-04-03 20:16:06"}
+{"level":"debug","message":"Successfully fetched all duties from the database.","service":"todo-api","timestamp":"2025-04-03 20:16:06"}
+{"level":"debug","message":"DutyService: Successfully retrieved all duties.","service":"todo-api","timestamp":"2025-04-03 20:16:06"}
+{"level":"debug","message":"DutyService: Updating duty with id 12.","service":"todo-api","timestamp":"2025-04-03 20:16:16"}
+{"level":"warn","message":"DutyService: Duty name contains invalid characters.","service":"todo-api","timestamp":"2025-04-03 20:16:16"}
+{"level":"error","message":"DutyService: Error updating duty with id 12: Duty name contains invalid characters","name":"ValidationError","service":"todo-api","stack":"ValidationError: Duty name contains invalid characters\n    at DutyService.validateDutyData (/usr/src/app/src/services/duty.service.ts:99:13)\n    at DutyService.<anonymous> (/usr/src/app/src/services/duty.service.ts:53:12)\n    at Generator.next (<anonymous>)\n    at /usr/src/app/src/services/duty.service.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (/usr/src/app/src/services/duty.service.ts:4:12)\n    at DutyService.updateDuty (/usr/src/app/src/services/duty.service.ts:67:16)\n    at DutyController.<anonymous> (/usr/src/app/src/controllers/duty.controller.ts:107:50)\n    at Generator.next (<anonymous>)\n    at /usr/src/app/src/controllers/duty.controller.ts:8:71","statusCode":400,"timestamp":"2025-04-03 20:16:16"}
+{"level":"error","message":"ServiceError: Failed to update duty with id 12","service":"todo-api","timestamp":"2025-04-03 20:16:16"}
+{"level":"debug","message":"DutyService: Getting all duties.","service":"todo-api","timestamp":"2025-04-03 20:16:20"}
+{"level":"debug","message":"Successfully fetched all duties from the database.","service":"todo-api","timestamp":"2025-04-03 20:16:20"}
+{"level":"debug","message":"DutyService: Successfully retrieved all duties.","service":"todo-api","timestamp":"2025-04-03 20:16:20"}
+{"level":"debug","message":"DutyService: Getting all duties.","service":"todo-api","timestamp":"2025-04-03 20:16:20"}
+{"level":"debug","message":"Successfully fetched all duties from the database.","service":"todo-api","timestamp":"2025-04-03 20:16:20"}
+{"level":"debug","message":"DutyService: Successfully retrieved all duties.","service":"todo-api","timestamp":"2025-04-03 20:16:20"}
+{"level":"debug","message":"DutyService: Updating duty with id 12.","service":"todo-api","timestamp":"2025-04-03 20:16:23"}
+{"level":"warn","message":"DutyService: Duty name contains invalid characters.","service":"todo-api","timestamp":"2025-04-03 20:16:23"}
+{"level":"error","message":"DutyService: Error updating duty with id 12: Duty name contains invalid characters","name":"ValidationError","service":"todo-api","stack":"ValidationError: Duty name contains invalid characters\n    at DutyService.validateDutyData (/usr/src/app/src/services/duty.service.ts:99:13)\n    at DutyService.<anonymous> (/usr/src/app/src/services/duty.service.ts:53:12)\n    at Generator.next (<anonymous>)\n    at /usr/src/app/src/services/duty.service.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (/usr/src/app/src/services/duty.service.ts:4:12)\n    at DutyService.updateDuty (/usr/src/app/src/services/duty.service.ts:67:16)\n    at DutyController.<anonymous> (/usr/src/app/src/controllers/duty.controller.ts:107:50)\n    at Generator.next (<anonymous>)\n    at /usr/src/app/src/controllers/duty.controller.ts:8:71","statusCode":400,"timestamp":"2025-04-03 20:16:23"}
+{"level":"error","message":"ServiceError: Failed to update duty with id 12","service":"todo-api","timestamp":"2025-04-03 20:16:23"}
+{"level":"debug","message":"DutyService: Updating duty with id 12.","service":"todo-api","timestamp":"2025-04-03 20:16:30"}
+{"level":"debug","message":"Successfully updated duty with id 12 in the database.","service":"todo-api","timestamp":"2025-04-03 20:16:30"}
+{"level":"debug","message":"DutyService: Successfully updated duty with id 12.","service":"todo-api","timestamp":"2025-04-03 20:16:30"}
+{"level":"debug","message":"DutyService: Getting all duties.","service":"todo-api","timestamp":"2025-04-03 20:17:39"}
+{"level":"debug","message":"Successfully fetched all duties from the database.","service":"todo-api","timestamp":"2025-04-03 20:17:39"}
+{"level":"debug","message":"DutyService: Successfully retrieved all duties.","service":"todo-api","timestamp":"2025-04-03 20:17:39"}
+{"level":"debug","message":"DutyService: Getting all duties.","service":"todo-api","timestamp":"2025-04-03 20:17:55"}
+{"level":"debug","message":"Successfully fetched all duties from the database.","service":"todo-api","timestamp":"2025-04-03 20:17:55"}
+{"level":"debug","message":"DutyService: Successfully retrieved all duties.","service":"todo-api","timestamp":"2025-04-03 20:17:55"}
+{"level":"debug","message":"DutyService: Updating duty with id 13.","service":"todo-api","timestamp":"2025-04-03 20:18:00"}
+{"level":"debug","message":"Successfully updated duty with id 13 in the database.","service":"todo-api","timestamp":"2025-04-03 20:18:00"}
+{"level":"debug","message":"DutyService: Successfully updated duty with id 13.","service":"todo-api","timestamp":"2025-04-03 20:18:00"}
+{"level":"debug","message":"DutyService: Updating duty with id 14.","service":"todo-api","timestamp":"2025-04-03 20:18:04"}
+{"level":"warn","message":"DutyService: Duty name contains invalid characters.","service":"todo-api","timestamp":"2025-04-03 20:18:04"}
+{"level":"error","message":"DutyService: Error updating duty with id 14: Duty name contains invalid characters","name":"ValidationError","service":"todo-api","stack":"ValidationError: Duty name contains invalid characters\n    at DutyService.validateDutyData (/usr/src/app/src/services/duty.service.ts:99:13)\n    at DutyService.<anonymous> (/usr/src/app/src/services/duty.service.ts:53:12)\n    at Generator.next (<anonymous>)\n    at /usr/src/app/src/services/duty.service.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (/usr/src/app/src/services/duty.service.ts:4:12)\n    at DutyService.updateDuty (/usr/src/app/src/services/duty.service.ts:67:16)\n    at DutyController.<anonymous> (/usr/src/app/src/controllers/duty.controller.ts:107:50)\n    at Generator.next (<anonymous>)\n    at /usr/src/app/src/controllers/duty.controller.ts:8:71","statusCode":400,"timestamp":"2025-04-03 20:18:04"}
+{"level":"error","message":"ServiceError: Failed to update duty with id 14","service":"todo-api","timestamp":"2025-04-03 20:18:04"}
+{"level":"debug","message":"DutyService: Getting all duties.","service":"todo-api","timestamp":"2025-04-03 20:19:34"}
+{"level":"debug","message":"Successfully fetched all duties from the database.","service":"todo-api","timestamp":"2025-04-03 20:19:34"}
+{"level":"debug","message":"DutyService: Successfully retrieved all duties.","service":"todo-api","timestamp":"2025-04-03 20:19:34"}
+{"level":"debug","message":"DutyService: Getting all duties.","service":"todo-api","timestamp":"2025-04-03 20:21:04"}
+{"level":"debug","message":"Successfully fetched all duties from the database.","service":"todo-api","timestamp":"2025-04-03 20:21:04"}
+{"level":"debug","message":"DutyService: Successfully retrieved all duties.","service":"todo-api","timestamp":"2025-04-03 20:21:04"}
+{"level":"debug","message":"DutyService: Updating duty with id 14.","service":"todo-api","timestamp":"2025-04-03 20:21:33"}
+{"level":"debug","message":"Successfully updated duty with id 14 in the database.","service":"todo-api","timestamp":"2025-04-03 20:21:33"}
+{"level":"debug","message":"DutyService: Successfully updated duty with id 14.","service":"todo-api","timestamp":"2025-04-03 20:21:33"}
+{"level":"debug","message":"DutyService: Getting all duties.","service":"todo-api","timestamp":"2025-04-03 20:30:24"}
+{"level":"debug","message":"DutyService: Getting all duties.","service":"todo-api","timestamp":"2025-04-03 20:30:24"}
+{"level":"debug","message":"Successfully fetched all duties from the database.","service":"todo-api","timestamp":"2025-04-03 20:30:24"}
+{"level":"debug","message":"DutyService: Successfully retrieved all duties.","service":"todo-api","timestamp":"2025-04-03 20:30:24"}
+{"level":"debug","message":"Successfully fetched all duties from the database.","service":"todo-api","timestamp":"2025-04-03 20:30:24"}
+{"level":"debug","message":"DutyService: Successfully retrieved all duties.","service":"todo-api","timestamp":"2025-04-03 20:30:24"}
+{"level":"debug","message":"DutyService: Getting all duties.","service":"todo-api","timestamp":"2025-04-03 20:30:32"}
+{"level":"debug","message":"Successfully fetched all duties from the database.","service":"todo-api","timestamp":"2025-04-03 20:30:32"}
+{"level":"debug","message":"DutyService: Successfully retrieved all duties.","service":"todo-api","timestamp":"2025-04-03 20:30:32"}
+{"level":"debug","message":"DutyService: Getting all duties.","service":"todo-api","timestamp":"2025-04-03 20:30:40"}
+{"level":"debug","message":"Successfully fetched all duties from the database.","service":"todo-api","timestamp":"2025-04-03 20:30:40"}
+{"level":"debug","message":"DutyService: Successfully retrieved all duties.","service":"todo-api","timestamp":"2025-04-03 20:30:40"}
+{"level":"debug","message":"DutyService: Getting all duties.","service":"todo-api","timestamp":"2025-04-03 20:30:40"}
+{"level":"debug","message":"Successfully fetched all duties from the database.","service":"todo-api","timestamp":"2025-04-03 20:30:40"}
+{"level":"debug","message":"DutyService: Successfully retrieved all duties.","service":"todo-api","timestamp":"2025-04-03 20:30:40"}
+{"level":"debug","message":"DutyService: Updating duty with id 15.","service":"todo-api","timestamp":"2025-04-03 20:30:52"}
+{"level":"debug","message":"Successfully updated duty with id 15 in the database.","service":"todo-api","timestamp":"2025-04-03 20:30:52"}
+{"level":"debug","message":"DutyService: Successfully updated duty with id 15.","service":"todo-api","timestamp":"2025-04-03 20:30:52"}
+{"level":"debug","message":"DutyService: Updating duty with id 15.","service":"todo-api","timestamp":"2025-04-03 20:31:06"}
+{"level":"debug","message":"Successfully updated duty with id 15 in the database.","service":"todo-api","timestamp":"2025-04-03 20:31:06"}
+{"level":"debug","message":"DutyService: Successfully updated duty with id 15.","service":"todo-api","timestamp":"2025-04-03 20:31:06"}
+{"level":"debug","message":"DutyService: Getting all duties.","service":"todo-api","timestamp":"2025-04-03 20:31:31"}
+{"level":"debug","message":"Successfully fetched all duties from the database.","service":"todo-api","timestamp":"2025-04-03 20:31:31"}
+{"level":"debug","message":"DutyService: Successfully retrieved all duties.","service":"todo-api","timestamp":"2025-04-03 20:31:31"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [03/Apr/2025:20:31:31 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"http://localhost:3001/api/duties\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0\"","service":"todo-api","timestamp":"2025-04-03 20:31:31"}
+{"level":"debug","message":"DutyService: Getting all duties.","service":"todo-api","timestamp":"2025-04-03 20:33:00"}
+{"level":"debug","message":"Successfully fetched all duties from the database.","service":"todo-api","timestamp":"2025-04-03 20:33:00"}
+{"level":"debug","message":"DutyService: Successfully retrieved all duties.","service":"todo-api","timestamp":"2025-04-03 20:33:00"}
+{"level":"debug","message":"DutyService: Getting all duties.","service":"todo-api","timestamp":"2025-04-03 20:33:03"}
+{"level":"debug","message":"Successfully fetched all duties from the database.","service":"todo-api","timestamp":"2025-04-03 20:33:03"}
+{"level":"debug","message":"DutyService: Successfully retrieved all duties.","service":"todo-api","timestamp":"2025-04-03 20:33:03"}
+{"level":"debug","message":"DutyService: Getting all duties.","service":"todo-api","timestamp":"2025-04-03 20:33:03"}
+{"level":"debug","message":"Successfully fetched all duties from the database.","service":"todo-api","timestamp":"2025-04-03 20:33:03"}
+{"level":"debug","message":"DutyService: Successfully retrieved all duties.","service":"todo-api","timestamp":"2025-04-03 20:33:03"}
+{"level":"debug","message":"DutyService: Updating duty with id 16.","service":"todo-api","timestamp":"2025-04-03 20:33:12"}
+{"level":"debug","message":"Successfully updated duty with id 16 in the database.","service":"todo-api","timestamp":"2025-04-03 20:33:12"}
+{"level":"debug","message":"DutyService: Successfully updated duty with id 16.","service":"todo-api","timestamp":"2025-04-03 20:33:12"}
+{"level":"debug","message":"DutyService: Getting all duties.","service":"todo-api","timestamp":"2025-04-03 20:33:49"}
+{"level":"debug","message":"Successfully fetched all duties from the database.","service":"todo-api","timestamp":"2025-04-03 20:33:49"}
+{"level":"debug","message":"DutyService: Successfully retrieved all duties.","service":"todo-api","timestamp":"2025-04-03 20:33:49"}
+{"level":"debug","message":"DutyService: Getting all duties.","service":"todo-api","timestamp":"2025-04-03 20:37:58"}
+{"level":"debug","message":"Successfully fetched all duties from the database.","service":"todo-api","timestamp":"2025-04-03 20:37:58"}
+{"level":"debug","message":"DutyService: Successfully retrieved all duties.","service":"todo-api","timestamp":"2025-04-03 20:37:58"}
+{"level":"debug","message":"DutyService: Getting all duties.","service":"todo-api","timestamp":"2025-04-03 20:39:45"}
+{"level":"debug","message":"Successfully fetched all duties from the database.","service":"todo-api","timestamp":"2025-04-03 20:39:45"}
+{"level":"debug","message":"DutyService: Successfully retrieved all duties.","service":"todo-api","timestamp":"2025-04-03 20:39:45"}
+{"level":"debug","message":"DutyService: Getting all duties.","service":"todo-api","timestamp":"2025-04-03 20:40:06"}
+{"level":"debug","message":"Successfully fetched all duties from the database.","service":"todo-api","timestamp":"2025-04-03 20:40:06"}
+{"level":"debug","message":"DutyService: Successfully retrieved all duties.","service":"todo-api","timestamp":"2025-04-03 20:40:06"}
+{"level":"debug","message":"DutyService: Updating duty with id 17.","service":"todo-api","timestamp":"2025-04-03 20:40:14"}
+{"level":"debug","message":"Successfully updated duty with id 17 in the database.","service":"todo-api","timestamp":"2025-04-03 20:40:14"}
+{"level":"debug","message":"DutyService: Successfully updated duty with id 17.","service":"todo-api","timestamp":"2025-04-03 20:40:14"}
+{"level":"debug","message":"DutyService: Updating duty with id 17.","service":"todo-api","timestamp":"2025-04-03 20:40:27"}
+{"level":"debug","message":"Successfully updated duty with id 17 in the database.","service":"todo-api","timestamp":"2025-04-03 20:40:27"}
+{"level":"debug","message":"DutyService: Successfully updated duty with id 17.","service":"todo-api","timestamp":"2025-04-03 20:40:27"}
+{"level":"debug","message":"DutyService: Getting all duties.","service":"todo-api","timestamp":"2025-04-03 20:40:38"}
+{"level":"debug","message":"Successfully fetched all duties from the database.","service":"todo-api","timestamp":"2025-04-03 20:40:38"}
+{"level":"debug","message":"DutyService: Successfully retrieved all duties.","service":"todo-api","timestamp":"2025-04-03 20:40:38"}
+{"level":"debug","message":"DutyService: Updating duty with id 18.","service":"todo-api","timestamp":"2025-04-03 20:40:44"}
+{"level":"debug","message":"Successfully updated duty with id 18 in the database.","service":"todo-api","timestamp":"2025-04-03 20:40:44"}
+{"level":"debug","message":"DutyService: Successfully updated duty with id 18.","service":"todo-api","timestamp":"2025-04-03 20:40:44"}
+{"level":"debug","message":"DutyService: Getting all duties.","service":"todo-api","timestamp":"2025-04-03 20:40:55"}
+{"level":"debug","message":"Successfully fetched all duties from the database.","service":"todo-api","timestamp":"2025-04-03 20:40:55"}
+{"level":"debug","message":"DutyService: Successfully retrieved all duties.","service":"todo-api","timestamp":"2025-04-03 20:40:55"}
+{"level":"debug","message":"DutyService: Updating duty with id 19.","service":"todo-api","timestamp":"2025-04-03 20:41:03"}
+{"level":"debug","message":"Successfully updated duty with id 19 in the database.","service":"todo-api","timestamp":"2025-04-03 20:41:03"}
+{"level":"debug","message":"DutyService: Successfully updated duty with id 19.","service":"todo-api","timestamp":"2025-04-03 20:41:03"}
+{"level":"debug","message":"DutyService: Getting all duties.","service":"todo-api","timestamp":"2025-04-03 20:42:53"}
+{"level":"debug","message":"Successfully fetched all duties from the database.","service":"todo-api","timestamp":"2025-04-03 20:42:53"}
+{"level":"debug","message":"DutyService: Successfully retrieved all duties.","service":"todo-api","timestamp":"2025-04-03 20:42:53"}
+{"level":"debug","message":"DutyService: Updating duty with id 20.","service":"todo-api","timestamp":"2025-04-03 20:43:05"}
+{"level":"debug","message":"Successfully updated duty with id 20 in the database.","service":"todo-api","timestamp":"2025-04-03 20:43:05"}
+{"level":"debug","message":"DutyService: Successfully updated duty with id 20.","service":"todo-api","timestamp":"2025-04-03 20:43:05"}
+{"level":"debug","message":"DutyService: Getting all duties.","service":"todo-api","timestamp":"2025-04-03 20:43:42"}
+{"level":"debug","message":"Successfully fetched all duties from the database.","service":"todo-api","timestamp":"2025-04-03 20:43:42"}
+{"level":"debug","message":"DutyService: Successfully retrieved all duties.","service":"todo-api","timestamp":"2025-04-03 20:43:42"}
+{"level":"debug","message":"DutyService: Getting all duties.","service":"todo-api","timestamp":"2025-04-03 20:44:46"}
+{"level":"debug","message":"Successfully fetched all duties from the database.","service":"todo-api","timestamp":"2025-04-03 20:44:46"}
+{"level":"debug","message":"DutyService: Successfully retrieved all duties.","service":"todo-api","timestamp":"2025-04-03 20:44:46"}
+{"level":"debug","message":"DutyService: Creating new duty.","service":"todo-api","timestamp":"2025-04-03 20:45:06"}
+{"level":"debug","message":"Successfully created a new duty in the database.","service":"todo-api","timestamp":"2025-04-03 20:45:06"}
+{"level":"debug","message":"DutyService: Successfully created new duty.","service":"todo-api","timestamp":"2025-04-03 20:45:06"}
+{"level":"debug","message":"DutyService: Updating duty with id 34.","service":"todo-api","timestamp":"2025-04-03 20:45:23"}
+{"level":"debug","message":"Successfully updated duty with id 34 in the database.","service":"todo-api","timestamp":"2025-04-03 20:45:23"}
+{"level":"debug","message":"DutyService: Successfully updated duty with id 34.","service":"todo-api","timestamp":"2025-04-03 20:45:23"}
+{"level":"debug","message":"DutyService: Getting all duties.","service":"todo-api","timestamp":"2025-04-03 20:45:36"}
+{"level":"debug","message":"Successfully fetched all duties from the database.","service":"todo-api","timestamp":"2025-04-03 20:45:36"}
+{"level":"debug","message":"DutyService: Successfully retrieved all duties.","service":"todo-api","timestamp":"2025-04-03 20:45:36"}
+{"level":"debug","message":"DutyService: Getting all duties.","service":"todo-api","timestamp":"2025-04-03 20:45:36"}
+{"level":"debug","message":"Successfully fetched all duties from the database.","service":"todo-api","timestamp":"2025-04-03 20:45:36"}
+{"level":"debug","message":"DutyService: Successfully retrieved all duties.","service":"todo-api","timestamp":"2025-04-03 20:45:36"}
+{"level":"debug","message":"DutyService: Updating duty with id 14.","service":"todo-api","timestamp":"2025-04-03 20:45:43"}
+{"level":"debug","message":"Successfully updated duty with id 14 in the database.","service":"todo-api","timestamp":"2025-04-03 20:45:43"}
+{"level":"debug","message":"DutyService: Successfully updated duty with id 14.","service":"todo-api","timestamp":"2025-04-03 20:45:43"}
+{"level":"debug","message":"DutyService: Creating new duty.","service":"todo-api","timestamp":"2025-04-03 20:46:20"}
+{"level":"debug","message":"Successfully created a new duty in the database.","service":"todo-api","timestamp":"2025-04-03 20:46:20"}
+{"level":"debug","message":"DutyService: Successfully created new duty.","service":"todo-api","timestamp":"2025-04-03 20:46:20"}
+{"level":"debug","message":"DutyService: Creating new duty.","service":"todo-api","timestamp":"2025-04-03 20:46:24"}
+{"level":"debug","message":"Successfully created a new duty in the database.","service":"todo-api","timestamp":"2025-04-03 20:46:24"}
+{"level":"debug","message":"DutyService: Successfully created new duty.","service":"todo-api","timestamp":"2025-04-03 20:46:24"}
+{"level":"debug","message":"DutyService: Updating duty with id 35.","service":"todo-api","timestamp":"2025-04-03 20:46:34"}
+{"level":"debug","message":"Successfully updated duty with id 35 in the database.","service":"todo-api","timestamp":"2025-04-03 20:46:34"}
+{"level":"debug","message":"DutyService: Successfully updated duty with id 35.","service":"todo-api","timestamp":"2025-04-03 20:46:34"}
+{"level":"debug","message":"DutyService: Updating duty with id 36.","service":"todo-api","timestamp":"2025-04-03 20:47:04"}
+{"level":"debug","message":"Successfully updated duty with id 36 in the database.","service":"todo-api","timestamp":"2025-04-03 20:47:04"}
+{"level":"debug","message":"DutyService: Successfully updated duty with id 36.","service":"todo-api","timestamp":"2025-04-03 20:47:04"}
+{"level":"debug","message":"DutyService: Deleting duty with id 36.","service":"todo-api","timestamp":"2025-04-03 20:47:09"}
+{"level":"debug","message":"Successfully deleted duty with id 36 from the database.","service":"todo-api","timestamp":"2025-04-03 20:47:09"}
+{"level":"debug","message":"DutyService: Successfully deleted duty with id 36.","service":"todo-api","timestamp":"2025-04-03 20:47:09"}
+{"level":"debug","message":"DutyService: Deleting duty with id 35.","service":"todo-api","timestamp":"2025-04-03 20:47:11"}
+{"level":"debug","message":"Successfully deleted duty with id 35 from the database.","service":"todo-api","timestamp":"2025-04-03 20:47:11"}
+{"level":"debug","message":"DutyService: Successfully deleted duty with id 35.","service":"todo-api","timestamp":"2025-04-03 20:47:11"}
+{"level":"debug","message":"DutyService: Updating duty with id 14.","service":"todo-api","timestamp":"2025-04-03 20:47:42"}
+{"level":"debug","message":"Successfully updated duty with id 14 in the database.","service":"todo-api","timestamp":"2025-04-03 20:47:42"}
+{"level":"debug","message":"DutyService: Successfully updated duty with id 14.","service":"todo-api","timestamp":"2025-04-03 20:47:42"}
+{"level":"debug","message":"DutyService: Updating duty with id 14.","service":"todo-api","timestamp":"2025-04-03 20:47:48"}
+{"level":"debug","message":"Successfully updated duty with id 14 in the database.","service":"todo-api","timestamp":"2025-04-03 20:47:48"}
+{"level":"debug","message":"DutyService: Successfully updated duty with id 14.","service":"todo-api","timestamp":"2025-04-03 20:47:48"}
+{"level":"debug","message":"DutyService: Getting all duties.","service":"todo-api","timestamp":"2025-04-03 21:05:50"}
+{"level":"debug","message":"Successfully fetched all duties from the database.","service":"todo-api","timestamp":"2025-04-03 21:05:50"}
+{"level":"debug","message":"DutyService: Successfully retrieved all duties.","service":"todo-api","timestamp":"2025-04-03 21:05:50"}
+{"level":"debug","message":"DutyService: Getting all duties.","service":"todo-api","timestamp":"2025-04-03 21:06:16"}
+{"level":"debug","message":"Successfully fetched all duties from the database.","service":"todo-api","timestamp":"2025-04-03 21:06:16"}
+{"level":"debug","message":"DutyService: Successfully retrieved all duties.","service":"todo-api","timestamp":"2025-04-03 21:06:16"}
+{"level":"info","message":"SIGTERM received, shutting down gracefully","service":"todo-api","timestamp":"2025-04-03 21:24:34"}
