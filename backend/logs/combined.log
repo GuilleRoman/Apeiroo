@@ -751,3 +751,8 @@
 {"level":"debug","message":"Successfully fetched all duties from the database.","service":"todo-api","timestamp":"2025-04-03 21:06:16"}
 {"level":"debug","message":"DutyService: Successfully retrieved all duties.","service":"todo-api","timestamp":"2025-04-03 21:06:16"}
 {"level":"info","message":"SIGTERM received, shutting down gracefully","service":"todo-api","timestamp":"2025-04-03 21:24:34"}
+{"level":"info","message":"Database initialized successfully","service":"todo-api","timestamp":"2025-04-04 09:29:47"}
+{"level":"info","message":"Server running on port 3001","service":"todo-api","timestamp":"2025-04-04 09:29:47"}
+{"level":"info","message":"SIGTERM received, shutting down gracefully","service":"todo-api","timestamp":"2025-04-04 09:33:41"}
+{"level":"info","message":"Database initialized successfully","service":"todo-api","timestamp":"2025-04-04 09:33:52"}
+{"level":"info","message":"Server running on port 3001","service":"todo-api","timestamp":"2025-04-04 09:33:52"}

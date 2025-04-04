@@ -4,6 +4,7 @@ import userEvent from '@testing-library/user-event';
 import axios from 'axios';
 import Duties from '../src/components/Duties';
 import { act } from '@testing-library/react';
+import '@testing-library/jest-dom';
 // Mock axios
 jest.mock('axios');
 
@@ -64,6 +65,9 @@ describe('Duties Component', () => {
     mockedAxios.put.mockResolvedValue({ data: {} });
     mockedAxios.delete.mockResolvedValue({ data: {} });
   });
+  afterEach(() => {
+    localStorage.clear();
+});
 
   test('renders component with title', async () => {
     render(<Duties />);
@@ -237,9 +241,9 @@ it('validates duty name when editing', async () => {
       fireEvent.click(saveButton);
   });
 
-  await waitFor(() => {
-      expect(screen.findByText('Duty name must be at least 3 characters')).resolves.toBeInTheDocument();
-  });
+  await waitFor(async () => {
+      expect(await screen.findByText('Duty name must be at least 3 characters')).toBeInTheDocument();
+  }, { timeout: 5000 });
 
   expect(mockedAxios.put).not.toHaveBeenCalled();
 });
@@ -277,9 +281,9 @@ it('validates special characters', async () => {
       fireEvent.click(saveButton);
   });
 
-  await waitFor(() => {
-      expect(screen.findByText('Duty name cannot contain special characters')).resolves.toBeInTheDocument();
-  });
+  await waitFor(async () => {
+      expect(await screen.findByText('Duty name cannot contain special characters')).toBeInTheDocument();
+  }, { timeout: 2000 });
 
   expect(mockedAxios.put).not.toHaveBeenCalled();
 });
@@ -302,21 +306,21 @@ it('validates special characters', async () => {
     expect(localStorageMock.setItem).toHaveBeenCalledWith('theme', 'dark');
   });
 
-  test('expands row to show details', async () => {
-    render(<Duties />);
-    
-    // Wait for duties to load
+  it('expands row to show details', async () => {
+    await act(async ()=>{
+        render(<Duties />);
+    });
+
     await waitFor(() => {
         expect(screen.getByText('Test Duty 1')).toBeInTheDocument();
     });
-    
-    // Find expand icon by title
-    const expandIcons = screen.getAllByTitle('Show/Hide Details');
-    
-    // Click expand icon
-    fireEvent.click(expandIcons[0]);
-    
-    // Check if details are visible
+
+    const expandIcons = screen.getAllByTestId('expand-details-1');
+
+    await act(async ()=>{
+        fireEvent.click(expandIcons[0]);
+    });
+
     expect(await screen.findByText(/Created At:/)).toBeInTheDocument();
     expect(screen.getByText(/Updated At:/)).toBeInTheDocument();
 });

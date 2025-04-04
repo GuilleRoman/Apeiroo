@@ -1,8 +1,8 @@
 import { Request, Response, NextFunction } from 'express';
-import { DutyController } from '../src/controllers/duty.controller';
-import { DutyService } from '../src/services/duty.service';
-import { CreateDutyDto, UpdateDutyDto } from '../src/models/duty.models';
-import { InvalidIdError, ControllerError } from '../src/utils/errors';
+import { DutyController } from '../controllers/duty.controller';
+import { DutyService } from '../services/duty.service';
+import { CreateDutyDto, UpdateDutyDto } from '../models/duty.models';
+import { InvalidIdError, ControllerError } from '../utils/errors';
 
 describe('DutyController', () => {
     let dutyService: DutyService;

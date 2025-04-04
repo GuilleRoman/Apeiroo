@@ -1,10 +1,10 @@
-import { DutyService } from '../src/services/duty.service';
-import { DutyRepository } from '../src/repositories/duty.repository';
-import { Duty, CreateDutyDto, UpdateDutyDto } from '../src/models/duty.models';
-import { NotFoundError, ValidationError, ServiceError } from '../src/utils/errors';
-import { logger } from '../src/utils/logger';
+import { DutyService } from '../services/duty.service';
+import { DutyRepository } from '../repositories/duty.repository';
+import { Duty, CreateDutyDto, UpdateDutyDto } from '../models/duty.models';
+import { NotFoundError, ValidationError, ServiceError } from '../utils/errors';
+import { logger } from '../utils/logger';
 
-jest.mock('../src/utils/logger'); // Mock the logger
+jest.mock('../utils/logger'); // Mock the logger
 
 describe('DutyService', () => {
     let dutyRepository: DutyRepository;

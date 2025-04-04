@@ -4,8 +4,10 @@ import { CreateDutyDto, UpdateDutyDto } from "../models/duty.models";
 import { InvalidIdError, ControllerError } from "../utils/errors";
 
 /**
- * DutyController class.
- * Handles incoming HTTP requests and interacts with the DutyService to process them.
+ * @swagger
+ * tags:
+ *   name: Duties
+ *   description: API for managing duties
  */
 export class DutyController {
   /**
@@ -13,11 +15,21 @@ export class DutyController {
    */
   constructor(private readonly dutyService: DutyService) {}
 
-  /**
-   * Handles GET requests to retrieve all duties.
-   * @param req - Express Request object.
-   * @param res - Express Response object.
-   * @param next - Express NextFunction for error handling.
+   /**
+   * @swagger
+   * /duties:
+   *   get:
+   *     summary: Get all duties
+   *     tags: [Duties]
+   *     responses:
+   *       200:
+   *         description: A list of duties
+   *         content:
+   *           application/json:
+   *             schema:
+   *               type: array
+   *               items:
+   *                 $ref: '#/components/schemas/Duty'
    */
   async getAllDuties(req: Request, res: Response, next: NextFunction) {
     try {
@@ -32,10 +44,23 @@ export class DutyController {
   }
 
   /**
-   * Handles GET requests to retrieve a duty by its ID.
-   * @param req - Express Request object.
-   * @param res - Express Response object.
-   * @param next - Express NextFunction for error handling.
+   * @swagger
+   * /duties/{id}:
+   *   get:
+   *     summary: Get a duty by ID
+   *     tags: [Duties]
+   *     parameters:
+   *       - in: path
+   *         name: id
+   *         required: true
+   *         schema:
+   *           type: integer
+   *         description: The duty ID
+   *     responses:
+   *       200:
+   *         description: The requested duty
+   *       400:
+   *         description: Invalid ID
    */
   async getDutyById(req: Request, res: Response, next: NextFunction) {
     try {
@@ -56,11 +81,23 @@ export class DutyController {
     }
   }
 
-  /**
-   * Handles POST requests to create a new duty.
-   * @param req - Express Request object.
-   * @param res - Express Response object.
-   * @param next - Express NextFunction for error handling.
+ /**
+   * @swagger
+   * /duties:
+   *   post:
+   *     summary: Create a new duty
+   *     tags: [Duties]
+   *     requestBody:
+   *       required: true
+   *       content:
+   *         application/json:
+   *           schema:
+   *             $ref: '#/components/schemas/CreateDutyDto'
+   *     responses:
+   *       201:
+   *         description: The created duty
+   *       400:
+   *         description: Bad request
    */
   async createDuty(req: Request, res: Response, next: NextFunction) {
     try {
@@ -82,10 +119,28 @@ export class DutyController {
   }
 
   /**
-   * Handles PUT/PATCH requests to update an existing duty.
-   * @param req - Express Request object.
-   * @param res - Express Response object.
-   * @param next - Express NextFunction for error handling.
+   * @swagger
+   * /duties/{id}:
+   *   put:
+   *     summary: Update an existing duty
+   *     tags: [Duties]
+   *     parameters:
+   *       - in: path
+   *         name: id
+   *         required: true
+   *         schema:
+   *           type: integer
+   *     requestBody:
+   *       required: true
+   *       content:
+   *         application/json:
+   *           schema:
+   *             $ref: '#/components/schemas/UpdateDutyDto'
+   *     responses:
+   *       200:
+   *         description: The updated duty
+   *       400:
+   *         description: Invalid request
    */
   async updateDuty(req: Request, res: Response, next: NextFunction) {
     try {
@@ -114,10 +169,22 @@ export class DutyController {
   }
 
   /**
-   * Handles DELETE requests to delete a duty.
-   * @param req - Express Request object.
-   * @param res - Express Response object.
-   * @param next - Express NextFunction for error handling.
+   * @swagger
+   * /duties/{id}:
+   *   delete:
+   *     summary: Delete a duty
+   *     tags: [Duties]
+   *     parameters:
+   *       - in: path
+   *         name: id
+   *         required: true
+   *         schema:
+   *           type: integer
+   *     responses:
+   *       200:
+   *         description: The deleted duty
+   *       400:
+   *         description: Invalid ID
    */
   async deleteDuty(req: Request, res: Response, next: NextFunction) {
     try {

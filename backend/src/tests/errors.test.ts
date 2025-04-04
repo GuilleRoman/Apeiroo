@@ -6,7 +6,7 @@ import {
     InvalidIdError,
     ServiceError,
     ControllerError,
-} from '../src/utils/errors'; // Adjust the import path
+} from '../utils/errors'; // Adjust the import path
 
 describe('Error Classes', () => {
     it('should create a BaseError instance', () => {

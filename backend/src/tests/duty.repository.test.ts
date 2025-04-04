@@ -1,10 +1,10 @@
 import { Pool, PoolClient, QueryResult } from 'pg';
-import { DutyRepository } from '../src/repositories/duty.repository';
-import { Duty, CreateDutyDto, UpdateDutyDto } from '../src/models/duty.models';
-import { DatabaseError } from '../src/utils/errors';
-import { logger } from '../src/utils/logger';
+import { DutyRepository } from '../repositories/duty.repository';
+import { Duty, CreateDutyDto, UpdateDutyDto } from '../models/duty.models';
+import { DatabaseError } from '../utils/errors';
+import { logger } from '../utils/logger';
 
-jest.mock('../src/utils/logger'); // Mock the logger
+jest.mock('../utils/logger'); // Mock the logger
 
 describe('DutyRepository', () => {
     let pool: Pool;

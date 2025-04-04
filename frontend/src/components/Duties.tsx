@@ -341,17 +341,17 @@ const Duties: React.FC = () => {
             ),
             rowExpandable: (record) => true,
             expandIcon: ({ expanded, record, onExpand }) => (
-                <Tooltip title="Show/Hide Details">
-                <span
-                    style={{ cursor: 'pointer' }}
-                    onClick={(e) => { 
-                        onExpand(record, e);
-                    }}
-                    aria-label={`expand-details-${record.id}`} // Add aria-label
-                >
-                    {expanded ? <CaretUpOutlined /> : <InfoCircleOutlined />}
-                </span>
-            </Tooltip>
+              <Tooltip title="Show/Hide Details">
+              <span
+                  style={{ cursor: 'pointer' }}
+                  onClick={(e) => {
+                      onExpand(record, e);
+                  }}
+                  data-testid={`expand-details-${record.id}`} // Add data-testid
+              >
+                  {expanded ? <CaretUpOutlined /> : <InfoCircleOutlined />}
+              </span>
+          </Tooltip>
             ),
           }}
         />

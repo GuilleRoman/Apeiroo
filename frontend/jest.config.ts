@@ -3,7 +3,7 @@ module.exports = {
     testEnvironment: 'jsdom',
     testMatch: ['<rootDir>/tests/**/*.test.tsx'],
     roots: ['<rootDir>/tests/'],
-    setupFilesAfterEnv: ['<rootDir>/tests/setupTests.ts']
+    setupFilesAfterEnv: ['<rootDir>/tests/setupTests.ts'],
 };
 
 export {};

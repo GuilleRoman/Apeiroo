@@ -1,6 +1,5 @@
 {
   "compilerOptions": {
-    // ... your other compiler options ...
     "rootDir": "src",
     "outDir": "dist",
     "esModuleInterop": true,
@@ -15,6 +14,6 @@
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true
   },
-  "include": ["src/**/*.ts", "tests/**/*.ts", "jest.config.ts"],
+  "include": ["src/**/*.ts"],
   "exclude": ["node_modules"]
 }

@@ -25,15 +25,15 @@ describe('Logger', () => {
 
     beforeEach(() => {
         jest.clearAllMocks();
-        delete require.cache[require.resolve('../src/utils/logger')]; // Correct path
-        const loggerModule = require('../src/utils/logger'); // Correct path
+        delete require.cache[require.resolve('../utils/logger')]; // Correct path
+        const loggerModule = require('../utils/logger'); // Correct path
         logger = loggerModule.logger;
         morganStream = loggerModule.morganStream;
     });
     
     it('should call winston.createLogger', () => {
-        delete require.cache[require.resolve('../src/utils/logger')];
-        require('../src/utils/logger');
+        delete require.cache[require.resolve('../utils/logger')];
+        require('../utils/logger');
         expect(winston.createLogger).toHaveBeenCalled();
     });
 
