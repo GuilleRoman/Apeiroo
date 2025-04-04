@@ -756,3 +756,18 @@
 {"level":"info","message":"SIGTERM received, shutting down gracefully","service":"todo-api","timestamp":"2025-04-04 09:33:41"}
 {"level":"info","message":"Database initialized successfully","service":"todo-api","timestamp":"2025-04-04 09:33:52"}
 {"level":"info","message":"Server running on port 3001","service":"todo-api","timestamp":"2025-04-04 09:33:52"}
+{"level":"info","message":"SIGTERM received, shutting down gracefully","service":"todo-api","timestamp":"2025-04-04 10:09:24"}
+{"level":"info","message":"Database initialized successfully","service":"todo-api","timestamp":"2025-04-04 10:09:58"}
+{"level":"info","message":"Server running on port 3001","service":"todo-api","timestamp":"2025-04-04 10:09:58"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [04/Apr/2025:10:10:07 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"http://localhost:3001/api/duties\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0\"","service":"todo-api","timestamp":"2025-04-04 10:10:07"}
+{"level":"debug","message":"DutyService: Getting all duties.","service":"todo-api","timestamp":"2025-04-04 10:10:09"}
+{"level":"debug","message":"Successfully fetched all duties from the database.","service":"todo-api","timestamp":"2025-04-04 10:10:09"}
+{"level":"debug","message":"DutyService: Successfully retrieved all duties.","service":"todo-api","timestamp":"2025-04-04 10:10:09"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [04/Apr/2025:10:10:09 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"http://localhost:3001/api/duties\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0\"","service":"todo-api","timestamp":"2025-04-04 10:10:09"}
+{"level":"debug","message":"DutyService: Getting all duties.","service":"todo-api","timestamp":"2025-04-04 10:10:30"}
+{"level":"debug","message":"Successfully fetched all duties from the database.","service":"todo-api","timestamp":"2025-04-04 10:10:30"}
+{"level":"debug","message":"DutyService: Successfully retrieved all duties.","service":"todo-api","timestamp":"2025-04-04 10:10:30"}
+{"level":"debug","message":"DutyService: Getting all duties.","service":"todo-api","timestamp":"2025-04-04 10:10:30"}
+{"level":"debug","message":"Successfully fetched all duties from the database.","service":"todo-api","timestamp":"2025-04-04 10:10:30"}
+{"level":"debug","message":"DutyService: Successfully retrieved all duties.","service":"todo-api","timestamp":"2025-04-04 10:10:30"}
+{"level":"info","message":"SIGTERM received, shutting down gracefully","service":"todo-api","timestamp":"2025-04-04 10:13:13"}
